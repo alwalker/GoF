@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Debug="true" Service="DoFactory.HeadFirst.Proxy.GumballState.Machine.GumballMachine" %>

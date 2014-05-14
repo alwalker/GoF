@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ActionService.Criteria.Criteria" Collapsed="true">
+    <Position X="11.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Criteria\Criteria.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ActionService.Criteria.ProductCriteria" Collapsed="true">
+    <Position X="11.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAEAgAAAAAAAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Criteria\ProductCriteria.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ActionService.Criteria.CustomerCriteria" Collapsed="true">
+    <Position X="9" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Criteria\CustomerCriteria.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ActionService.Criteria.OrderCriteria" Collapsed="true">
+    <Position X="13.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Criteria\OrderCriteria.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ActionService.DataTransferObjectMapper.Mapper" Collapsed="true">
+    <Position X="6.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>DataTransferObjectMapper\Mapper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ActionService.DataTransferObjects.CategoryDto" Collapsed="true">
+    <Position X="3.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAgAgAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataTransferObjects\CategoryDto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ActionService.DataTransferObjects.ShoppingCartItemDto" Collapsed="true">
+    <Position X="3.25" Y="2.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>IAACAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>DataTransferObjects\ShoppingCartItemDto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ActionService.DataTransferObjects.CustomerDto" Collapsed="true">
+    <Position X="5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAEAAAAAAAAAgAAIAAAAAAAAAAIAABAAAAAAJAAAAAA=</HashCode>
+      <FileName>DataTransferObjects\CustomerDto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ActionService.DataTransferObjects.OrderDetailDto" Collapsed="true">
+    <Position X="6.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAgAAIAAA=</HashCode>
+      <FileName>DataTransferObjects\OrderDetailDto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ActionService.DataTransferObjects.OrderDto" Collapsed="true">
+    <Position X="3.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>OAEAAABAAAAAAAAAABAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataTransferObjects\OrderDto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ActionService.DataTransferObjects.ProductDto" Collapsed="true">
+    <Position X="5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAoCAA=</HashCode>
+      <FileName>DataTransferObjects\ProductDto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ActionService.DataTransferObjects.ShoppingCartDto" Collapsed="true">
+    <Position X="6.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAQAgAAAAAAAAAAAAAAQAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataTransferObjects\ShoppingCartDto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ActionService.MessageBase.ResponseBase" Collapsed="true">
+    <Position X="3.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAACBAAgAAAAAAABAAACAgAAAAAAAIAAAAAA=</HashCode>
+      <FileName>MessageBase\ResponseBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ActionService.MessageBase.RequestBase" Collapsed="true">
+    <Position X="0.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAEAAAIAAAAAAQAAAAAAAAAEAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>MessageBase\RequestBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ActionService.Messages.CartRequest" Collapsed="true">
+    <Position X="0.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Messages\CartRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ActionService.Messages.TokenResponse" Collapsed="true">
+    <Position X="3.5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Messages\TokenResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ActionService.Messages.CartResponse" Collapsed="true">
+    <Position X="3.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Messages\CartResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ActionService.Messages.CustomerRequest" Collapsed="true">
+    <Position X="0.75" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Messages\CustomerRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ActionService.Messages.CustomerResponse" Collapsed="true">
+    <Position X="3.5" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Messages\CustomerResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ActionService.Messages.LoginRequest" Collapsed="true">
+    <Position X="0.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAQAAAAAAAAA=</HashCode>
+      <FileName>Messages\LoginRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ActionService.Messages.LoginResponse" Collapsed="true">
+    <Position X="3.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Messages\LoginResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ActionService.Messages.LogoutRequest" Collapsed="true">
+    <Position X="0.75" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Messages\LogoutRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ActionService.Messages.LogoutResponse" Collapsed="true">
+    <Position X="3.5" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Messages\LogoutResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ActionService.Messages.OrderRequest" Collapsed="true">
+    <Position X="0.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Messages\OrderRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ActionService.Messages.OrderResponse" Collapsed="true">
+    <Position X="3.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Messages\OrderResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ActionService.Messages.ProductRequest" Collapsed="true">
+    <Position X="0.75" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Messages\ProductRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ActionService.Messages.ProductResponse" Collapsed="true">
+    <Position X="3.5" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Messages\ProductResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ActionService.Messages.TokenRequest" Collapsed="true">
+    <Position X="0.75" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Messages\TokenRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ActionService.ServiceImplementations.ActionService" Collapsed="true">
+    <Position X="0.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAEAAQABAAAACAAEEAAQAEMCAAQAAAIAQIIQAAEBCAA=</HashCode>
+      <FileName>ServiceImplementations\ActionService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="ActionService.ServiceContracts.IActionService" Collapsed="true">
+    <Position X="0.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAQAAAAAAAAAEAAAQAEIAAAQAAAAAQAAQAAABAAA=</HashCode>
+      <FileName>ServiceContracts\IActionService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="ActionService.MessageBase.AcknowledgeType" Collapsed="true">
+    <Position X="7" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAgAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>MessageBase\AcknowledgeType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ActionService.MessageBase.PersistType" Collapsed="true">
+    <Position X="7" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MessageBase\PersistType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>

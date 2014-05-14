@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{30EB3C29-0AD3-4894-A8F5-4E9FB03A25C9}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>
+    </RootNamespace>
+    <AssemblyName>ActionService</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+    <DocumentationFile>
+    </DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.ServiceModel">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Criteria\Criteria.vb" />
+    <Compile Include="Criteria\CustomerCriteria.vb" />
+    <Compile Include="Criteria\OrderCriteria.vb" />
+    <Compile Include="Criteria\ProductCriteria.vb" />
+    <Compile Include="DataTransferObjects\ShoppingCartDto.vb" />
+    <Compile Include="DataTransferObjects\ShoppingCartItemDto.vb" />
+    <Compile Include="DataTransferObjects\CategoryDto.vb" />
+    <Compile Include="DataTransferObjects\CustomerDto.vb" />
+    <Compile Include="DataTransferObjects\OrderDetailDto.vb" />
+    <Compile Include="DataTransferObjects\OrderDto.vb" />
+    <Compile Include="DataTransferObjects\ProductDto.vb" />
+    <Compile Include="DataTransferObjectMapper\Mapper.vb" />
+    <Compile Include="MessageBase\AcknowledgeType.vb" />
+    <Compile Include="MessageBase\PersistType.vb" />
+    <Compile Include="MessageBase\RequestBase.vb" />
+    <Compile Include="MessageBase\ResponseBase.vb" />
+    <Compile Include="Messages\CartRequest.vb" />
+    <Compile Include="Messages\CartResponse.vb" />
+    <Compile Include="Messages\CustomerRequest.vb" />
+    <Compile Include="Messages\CustomerResponse.vb" />
+    <Compile Include="Messages\LoginRequest.vb" />
+    <Compile Include="Messages\LoginResponse.vb" />
+    <Compile Include="Messages\LogoutRequest.vb" />
+    <Compile Include="Messages\LogoutResponse.vb" />
+    <Compile Include="Messages\OrderRequest.vb" />
+    <Compile Include="Messages\OrderResponse.vb" />
+    <Compile Include="Messages\ProductRequest.vb" />
+    <Compile Include="Messages\ProductResponse.vb" />
+    <Compile Include="Messages\TokenRequest.vb" />
+    <Compile Include="Messages\TokenResponse.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="ServiceContracts\IActionService.vb" />
+    <Compile Include="ServiceImplementations\ActionService.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BusinessObjects\Business Objects.vbproj">
+      <Project>{542EFC95-C2E9-4C6D-B35C-E221F01D38AE}</Project>
+      <Name>Business Objects</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Cart\Cart.vbproj">
+      <Project>{78B9B198-7E2D-480B-8E0D-F195BD1C94F7}</Project>
+      <Name>Cart</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DataObjects\Data Objects.vbproj">
+      <Project>{552A9A1E-2D11-4D2C-B88A-7D318E0E9BF4}</Project>
+      <Name>Data Objects</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Encryption\Encryption.vbproj">
+      <Project>{C7668E19-E679-4FE4-8BBF-22C0131432B3}</Project>
+      <Name>Encryption</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Transactions\Transactions.vbproj">
+      <Project>{D3320461-8502-4838-806F-8A8E328F2B5F}</Project>
+      <Name>Transactions</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="_UML Diagram\ClassDiagram.cd" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

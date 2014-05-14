@@ -1,0 +1,170 @@
+﻿<Application x:Class="WPFApplication.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:converters="clr-namespace:WPFApplication.Converters"
+    xmlns:controls="clr-namespace:WPFApplication.Controls"
+    StartupUri="WindowMain.xaml">
+    <Application.Resources>
+    <ResourceDictionary>
+      <ResourceDictionary.MergedDictionaries>
+
+        <ResourceDictionary Source="/presentationframework.aero;component/themes/aero.normalcolor.xaml">
+        </ResourceDictionary>
+
+        <ResourceDictionary>
+          <converters:FormatConverter x:Key="formatConverter" />
+          <converters:MaxLengthConverter x:Key="lengthConverter" />
+
+          <!-- dofactory logo -->
+          
+          <ControlTemplate x:Key="DofactoryLogo">
+            <Viewbox Stretch="Fill" Width="90" Height="90">
+              <Grid Width="104" Height="104" >
+                <Ellipse Stroke="#FF000000">
+                  <Ellipse.Fill>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                      <GradientStop Color="#FF000000" Offset="0"/>
+                      <GradientStop Color="#FF2117D4" Offset="1"/>
+                    </LinearGradientBrush>
+                  </Ellipse.Fill>
+                </Ellipse>
+                <Ellipse Fill="#FFFFFFFF" Margin="13,2,14,0" VerticalAlignment="Top" Height="50" Stroke="{x:Null}">
+                  <Ellipse.OpacityMask>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                      <GradientStop Color="#D3000000" Offset="0"/>
+                      <GradientStop Color="#00FFFFFF" Offset="1"/>
+                    </LinearGradientBrush>
+                  </Ellipse.OpacityMask>
+                </Ellipse>
+                <TextBlock RenderTransformOrigin="0.5,0.5" Margin="13.602,6.394,4.398,17.606" Foreground="#FFF9F2F2" TextWrapping="Wrap">
+            <TextBlock.RenderTransform>
+              <TransformGroup>
+                <ScaleTransform ScaleX="1" ScaleY="1"/>
+                <SkewTransform AngleX="0" AngleY="0"/>
+                <RotateTransform Angle="21.926"/>
+                <TranslateTransform X="0" Y="0"/>
+              </TransformGroup>
+            </TextBlock.RenderTransform>
+            <TextBlock.OpacityMask>
+              <LinearGradientBrush EndPoint="0.349,0.027" StartPoint="0.651,0.973">
+                <GradientStop Color="#FF000000" Offset="0"/>
+                <GradientStop Color="#33FFFFFF" Offset="1"/>
+              </LinearGradientBrush>
+            </TextBlock.OpacityMask>
+            <Run FontSize="72" Text="do"/>
+          </TextBlock>
+              </Grid>
+            </Viewbox>
+          </ControlTemplate>
+
+          <!-- menu button style -->
+
+          <Style x:Key="MenuButtonStyle" BasedOn="{x:Null}" TargetType="{x:Type controls:DropDownButton}">
+            <Setter Property="HorizontalAlignment" Value="Left" />
+            <Setter Property="VerticalAlignment" Value="Top" />
+            <Setter Property="Width" Value="88" />
+            <Setter Property="Height" Value="24" />
+            <Setter Property="Foreground" Value="White" />
+
+            <Setter Property="Template">
+              <Setter.Value>
+                <ControlTemplate TargetType="{x:Type controls:DropDownButton}">
+                  <ControlTemplate.Resources>
+                    <Storyboard x:Key="Storyboard1">
+                      <ColorAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="rectangle" Storyboard.TargetProperty="(Shape.Fill).(GradientBrush.GradientStops)[1].(GradientStop.Color)">
+                        <SplineColorKeyFrame KeyTime="00:00:00" Value="#FF0017B1"/>
+                        <SplineColorKeyFrame KeyTime="00:00:00.1250000" Value="sc#1, 1, 0.122138776, 0.001214108"/>
+                      </ColorAnimationUsingKeyFrames>
+                      <ColorAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="rectangle" Storyboard.TargetProperty="(Shape.Fill).(GradientBrush.GradientStops)[0].(GradientStop.Color)">
+                        <SplineColorKeyFrame KeyTime="00:00:00" Value="#FF000000"/>
+                        <SplineColorKeyFrame KeyTime="00:00:00.1250000" Value="sc#1, 0.4554125, 0.125747144, 0"/>
+                      </ColorAnimationUsingKeyFrames>
+                      <DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="rectangle" Storyboard.TargetProperty="(Rectangle.RadiusY)">
+                        <SplineDoubleKeyFrame KeyTime="00:00:00" Value="13"/>
+                        <SplineDoubleKeyFrame KeyTime="00:00:00.1250000" Value="11"/>
+                      </DoubleAnimationUsingKeyFrames>
+                      <DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="rectangle" Storyboard.TargetProperty="(Rectangle.RadiusX)">
+                        <SplineDoubleKeyFrame KeyTime="00:00:00" Value="13"/>
+                        <SplineDoubleKeyFrame KeyTime="00:00:00.1250000" Value="11"/>
+                      </DoubleAnimationUsingKeyFrames>
+                      <DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Duration="00:00:00.0010000" Storyboard.TargetName="rectangle1" Storyboard.TargetProperty="(Rectangle.RadiusY)">
+                        <SplineDoubleKeyFrame KeyTime="00:00:00" Value="6.5"/>
+                      </DoubleAnimationUsingKeyFrames>
+                      <DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Duration="00:00:00.0010000" Storyboard.TargetName="rectangle1" Storyboard.TargetProperty="(Rectangle.RadiusX)">
+                        <SplineDoubleKeyFrame KeyTime="00:00:00" Value="6.5"/>
+                      </DoubleAnimationUsingKeyFrames>
+                      <DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Duration="00:00:00.0010000" Storyboard.TargetName="rectangle1" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleX)">
+                        <SplineDoubleKeyFrame KeyTime="00:00:00" Value="0.926"/>
+                      </DoubleAnimationUsingKeyFrames>
+                      <DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Duration="00:00:00.0010000" Storyboard.TargetName="rectangle1" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)">
+                        <SplineDoubleKeyFrame KeyTime="00:00:00" Value="1"/>
+                      </DoubleAnimationUsingKeyFrames>
+                    </Storyboard>
+                    <Storyboard x:Key="Storyboard2">
+                      <ColorAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetProperty="(Shape.Fill).(GradientBrush.GradientStops)[1].(GradientStop.Color)" Storyboard.TargetName="rectangle">
+                        <SplineColorKeyFrame KeyTime="00:00:00" Value="#FFFF8C00"/>
+                        <SplineColorKeyFrame KeyTime="00:00:00.2300000" Value="#FF0017B1"/>
+                      </ColorAnimationUsingKeyFrames>
+                      <ColorAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetProperty="(Shape.Fill).(GradientBrush.GradientStops)[0].(GradientStop.Color)" Storyboard.TargetName="rectangle">
+                        <SplineColorKeyFrame KeyTime="00:00:00" Value="#FF9F5801"/>
+                        <SplineColorKeyFrame KeyTime="00:00:00.2300000" Value="#FF000000"/>
+                      </ColorAnimationUsingKeyFrames>
+                    </Storyboard>
+                  </ControlTemplate.Resources>
+                  <Grid Cursor="Hand">
+                    <Rectangle Stroke="{x:Null}" RadiusX="11" RadiusY="11" x:Name="rectangle">
+                      <Rectangle.Fill>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                          <GradientStop Color="#FF000000" Offset="0"/>
+                          <GradientStop Color="#FF0017B1" Offset="1"/>
+                        </LinearGradientBrush>
+                      </Rectangle.Fill>
+                    </Rectangle>
+                    <Rectangle Stroke="{x:Null}" RadiusX="10" RadiusY="10" Margin="2,1,2,12" x:Name="rectangle1" RenderTransformOrigin="0.5,0.5">
+                      <Rectangle.RenderTransform>
+                        <TransformGroup>
+                          <ScaleTransform ScaleX="1" ScaleY="1"/>
+                          <SkewTransform AngleX="0" AngleY="0"/>
+                          <RotateTransform Angle="0"/>
+                          <TranslateTransform X="0" Y="0"/>
+                        </TransformGroup>
+                      </Rectangle.RenderTransform>
+                      <Rectangle.Fill>
+                        <LinearGradientBrush EndPoint="0.5,0.561" StartPoint="0.5,0.003">
+                          <GradientStop Color="#B6FFFFFF" Offset="0"/>
+                          <GradientStop Color="#00FFFFFF" Offset="1"/>
+                        </LinearGradientBrush>
+                      </Rectangle.Fill>
+                    </Rectangle>
+                    <ContentPresenter SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}" RecognizesAccessKey="True"/>
+                  </Grid>
+                  <ControlTemplate.Triggers>
+                    <Trigger Property="IsFocused" Value="True"/>
+
+                    <Trigger Property="IsMouseOver" Value="True">
+                      <Trigger.ExitActions>
+                        <BeginStoryboard Storyboard="{StaticResource Storyboard2}" x:Name="Storyboard2_BeginStoryboard"/>
+                      </Trigger.ExitActions>
+                      <Trigger.EnterActions>
+                        <BeginStoryboard Storyboard="{StaticResource Storyboard1}"/>
+                      </Trigger.EnterActions>
+                    </Trigger>
+                    <Trigger Property="IsPressed" Value="True">
+                      <Trigger.ExitActions>
+                      </Trigger.ExitActions>
+                      <Trigger.EnterActions>
+                      </Trigger.EnterActions>
+                    </Trigger>
+                    <Trigger Property="IsEnabled" Value="False"/>
+                  </ControlTemplate.Triggers>
+                </ControlTemplate>
+              </Setter.Value>
+            </Setter>
+          </Style>
+
+        </ResourceDictionary>
+      </ResourceDictionary.MergedDictionaries>
+    </ResourceDictionary>
+
+  </Application.Resources>
+</Application>

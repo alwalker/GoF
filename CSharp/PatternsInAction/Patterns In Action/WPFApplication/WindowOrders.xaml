@@ -1,0 +1,38 @@
+﻿<Window x:Class="WPFApplication.WindowOrders"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Orders" Height="473" Width="645" WindowStartupLocation="CenterOwner" Background="Black"
+    Loaded="Window_Loaded" WindowStyle="None">
+  <Window.Resources>
+
+  </Window.Resources>
+  <Grid>
+    <ListView Margin="42,164,39,159" Name="listViewOrders" ItemsSource="{Binding Orders}" >
+      <ListView.View>
+        <GridView>
+          <GridViewColumn Header="Order Id" Width="100" DisplayMemberBinding="{Binding OrderId}" />
+          <GridViewColumn Header="Order Date" Width="100" DisplayMemberBinding="{Binding OrderDate, Converter={StaticResource formatConverter}, ConverterParameter='\{0: MMM dd, yyyy\}'}" />
+          <GridViewColumn Header="Required Date" Width="100" DisplayMemberBinding="{Binding RequiredDate, Converter={StaticResource formatConverter}, ConverterParameter='\{0: MMM dd, yyyy\}'}" />
+        </GridView>
+      </ListView.View>
+    </ListView>
+    <ListView Margin="42,0,39,17" Name="listViewOrderDetails" Height="112" VerticalAlignment="Bottom" 
+    ItemsSource="{Binding ElementName=listViewOrders, Path=SelectedItem.OrderDetails}" >
+      <ListView.View>
+        <GridView>
+          <GridViewColumn Header="Product" Width="250" DisplayMemberBinding="{Binding ProductName}" />
+          <GridViewColumn Header="Quantity" Width="50" DisplayMemberBinding="{Binding Quantity}" />
+          <GridViewColumn Header="Unit Price" Width="100" DisplayMemberBinding="{Binding UnitPrice, Converter={StaticResource formatConverter}, ConverterParameter='\{0:c\}'}" />
+          <GridViewColumn Header="Discount" Width="100" DisplayMemberBinding="{Binding Discount, Converter={StaticResource formatConverter}, ConverterParameter='\{0:0%\}'}" />
+        </GridView>
+      </ListView.View>
+    </ListView>
+    <Button Height="23" Margin="0,27,39,0" Name="buttonClose" VerticalAlignment="Top" HorizontalAlignment="Right" Width="75" IsDefault="True" IsCancel="True">Close</Button>
+    <Image x:Name="CustomerImage" Stretch="Fill" Width="100" Height="100" Margin="42,27,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" />
+    <Label Foreground="White" Height="30" Margin="164,28,230,0" Name="labelCompany" VerticalAlignment="Top" Content="{Binding Path=Company}" FontSize="13" FontWeight="Bold" />
+    <Label Foreground="White" Height="24" Margin="164,51,276,0" Name="labelCity" VerticalAlignment="Top" Content="{Binding Path=City}" />
+    <Label Foreground="White" Height="24" Margin="164,70,276,0" Name="labelCountry" VerticalAlignment="Top" Content="{Binding Path=Country}" />
+    <Label Height="28" HorizontalAlignment="Left" Margin="44,140,0,0" Name="labelOrders" VerticalAlignment="Top" Width="120" FontWeight="Bold" FontSize="14">Orders:</Label>
+    <Label FontSize="14" FontWeight="Bold" Height="28" HorizontalAlignment="Left" Margin="42,0,0,128" Name="labelOrderDetails" VerticalAlignment="Bottom" Width="120">Order Details:</Label>
+  </Grid>
+</Window>

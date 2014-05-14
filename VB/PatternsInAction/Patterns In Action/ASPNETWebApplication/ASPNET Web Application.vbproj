@@ -1,0 +1,346 @@
+﻿<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F70D100C-9A11-42A4-93A7-47A844694D50}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>
+    </RootNamespace>
+    <AssemblyName>ASPNETWebApplication</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+    <DocumentationFile>
+    </DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+    <DocumentationFile>bin\ASPNETWebApplication.XML</DocumentationFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.ServiceModel">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Extensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Themes\DoFactory\DoFactory.css" />
+    <Content Include="Images\Site\arrow.gif" />
+    <Content Include="Images\Site\default.jpg" />
+    <Content Include="Images\Site\indicator.gif" />
+    <Content Include="Images\Site\logo.gif" />
+    <Content Include="Images\Site\remove.jpg" />
+    <Content Include="Images\Site\sortasc.gif" />
+    <Content Include="Images\Site\sortdesc.gif" />
+    <Content Include="Images\Site\spacer.gif" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controllers\AuthenticationController.vb" />
+    <Compile Include="Controllers\CartController.vb" />
+    <Compile Include="Controllers\ControllerBase.vb" />
+    <Compile Include="Controllers\CustomerController.vb" />
+    <Compile Include="Controllers\OrderController.vb" />
+    <Compile Include="Controllers\ProductController.vb" />
+    <Compile Include="Default.aspx.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Error\Error.aspx.vb">
+      <DependentUpon>Error.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Error\Error.aspx.designer.vb">
+      <DependentUpon>Error.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.vb">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.vb">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.vb">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Logout.aspx.vb">
+      <DependentUpon>Logout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Logout.aspx.designer.vb">
+      <DependentUpon>Logout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PageBase.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="Service References\ActionServiceReference\Reference.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\ImageServiceReference\Reference.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="SiteMasterPage.Master.vb">
+      <DependentUpon>SiteMasterPage.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SiteMasterPage.Master.designer.vb">
+      <DependentUpon>SiteMasterPage.Master</DependentUpon>
+    </Compile>
+    <Compile Include="WebAdmin\Admin.aspx.vb">
+      <DependentUpon>Admin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebAdmin\Admin.aspx.designer.vb">
+      <DependentUpon>Admin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebAdmin\Customer.aspx.vb">
+      <DependentUpon>Customer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebAdmin\Customer.aspx.designer.vb">
+      <DependentUpon>Customer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebAdmin\Customers.aspx.vb">
+      <DependentUpon>Customers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebAdmin\Customers.aspx.designer.vb">
+      <DependentUpon>Customers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebAdmin\Order.aspx.vb">
+      <DependentUpon>Order.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebAdmin\Order.aspx.designer.vb">
+      <DependentUpon>Order.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebAdmin\OrderDetails.aspx.vb">
+      <DependentUpon>OrderDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebAdmin\OrderDetails.aspx.designer.vb">
+      <DependentUpon>OrderDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebAdmin\Orders.aspx.vb">
+      <DependentUpon>Orders.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebAdmin\Orders.aspx.designer.vb">
+      <DependentUpon>Orders.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebShop\Cart.aspx.vb">
+      <DependentUpon>Cart.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebShop\Cart.aspx.designer.vb">
+      <DependentUpon>Cart.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebShop\Checkout.aspx.vb">
+      <DependentUpon>Checkout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebShop\Checkout.aspx.designer.vb">
+      <DependentUpon>Checkout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebShop\Product.aspx.vb">
+      <DependentUpon>Product.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebShop\Product.aspx.designer.vb">
+      <DependentUpon>Product.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebShop\Products.aspx.vb">
+      <DependentUpon>Products.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebShop\Products.aspx.designer.vb">
+      <DependentUpon>Products.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebShop\Search.aspx.vb">
+      <DependentUpon>Search.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebShop\Search.aspx.designer.vb">
+      <DependentUpon>Search.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebShop\Shopping.aspx.vb">
+      <DependentUpon>Shopping.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebShop\Shopping.aspx.designer.vb">
+      <DependentUpon>Shopping.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Themes\DoFactory\DoFactory.skin" />
+    <Content Include="Default.aspx" />
+    <Content Include="Error\Error.aspx" />
+    <Content Include="Login.aspx" />
+    <Content Include="Logout.aspx" />
+    <None Include="Service References\ImageServiceReference\ImageService.disco" />
+    <None Include="Service References\ImageServiceReference\configuration91.svcinfo" />
+    <None Include="Service References\ImageServiceReference\configuration.svcinfo" />
+    <None Include="Service References\ImageServiceReference\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.vb</LastGenOutput>
+    </None>
+    <None Include="Service References\ActionServiceReference\configuration91.svcinfo" />
+    <None Include="Service References\ActionServiceReference\configuration.svcinfo" />
+    <None Include="Service References\ActionServiceReference\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.vb</LastGenOutput>
+    </None>
+    <Content Include="SiteMasterPage.Master" />
+    <Content Include="Global.asax" />
+    <Content Include="Web.sitemap" />
+    <Content Include="WebAdmin\Admin.aspx" />
+    <Content Include="WebAdmin\Customer.aspx" />
+    <Content Include="WebAdmin\Customers.aspx" />
+    <Content Include="WebAdmin\Order.aspx" />
+    <Content Include="WebAdmin\OrderDetails.aspx" />
+    <Content Include="WebAdmin\Orders.aspx" />
+    <Content Include="WebShop\Cart.aspx" />
+    <Content Include="WebShop\Checkout.aspx" />
+    <Content Include="WebShop\Product.aspx" />
+    <Content Include="WebShop\Products.aspx" />
+    <Content Include="WebShop\Search.aspx" />
+    <Content Include="WebShop\Shopping.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Controls\Controls.vbproj">
+      <Project>{593AD240-EF87-4EA4-8D3E-8463BD8E0CB9}</Project>
+      <Name>Controls</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Log\Log.vbproj">
+      <Project>{09C53720-C84B-4462-A2C1-604E9DD0FCBD}</Project>
+      <Name>Log</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ViewState\ViewState.vbproj">
+      <Project>{71BA1D47-EDEA-41F1-9CA7-590EAE540B4F}</Project>
+      <Name>ViewState</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\ActionServiceReference\" />
+    <WCFMetadataStorage Include="Service References\ImageServiceReference\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\ActionServiceReference\ActionServiceReference.CartResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ActionServiceReference\ActionServiceReference.CustomerResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ActionServiceReference\ActionServiceReference.LoginResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ActionServiceReference\ActionServiceReference.LogoutResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ActionServiceReference\ActionServiceReference.OrderResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ActionServiceReference\ActionServiceReference.ProductResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ActionServiceReference\ActionServiceReference.TokenResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ActionServiceReference\Arrays.xsd" />
+    <None Include="Service References\ActionServiceReference\service.wsdl" />
+    <None Include="Service References\ActionServiceReference\service.xsd" />
+    <None Include="Service References\ActionServiceReference\service1.xsd" />
+    <None Include="Service References\ActionServiceReference\service2.xsd" />
+    <None Include="Service References\ImageServiceReference\ImageService.wsdl" />
+    <None Include="Service References\ImageServiceReference\ImageService.xsd" />
+    <None Include="Service References\ImageServiceReference\ImageService1.wsdl" />
+    <None Include="Service References\ImageServiceReference\ImageService1.xsd" />
+    <None Include="Service References\ImageServiceReference\ImageService2.xsd" />
+    <None Include="_UML Diagram\ClassDiagram.cd" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v9.0\WebApplications\Microsoft.WebApplication.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>False</AutoAssignPort>
+          <DevelopmentServerPort>2818</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

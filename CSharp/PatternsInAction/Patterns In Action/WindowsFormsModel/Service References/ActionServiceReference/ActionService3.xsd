@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:4750/ActionService.svc?xsd=xsd2" namespace="http://www.yourcompany.com/types/" />
+  <xs:element name="GetToken">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://www.yourcompany.com/types/" minOccurs="0" name="request" nillable="true" type="q1:TokenRequest" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetTokenResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://www.yourcompany.com/types/" minOccurs="0" name="GetTokenResult" nillable="true" type="q2:TokenResponse" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Login">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q3="http://www.yourcompany.com/types/" minOccurs="0" name="request" nillable="true" type="q3:LoginRequest" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LoginResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q4="http://www.yourcompany.com/types/" minOccurs="0" name="LoginResult" nillable="true" type="q4:LoginResponse" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Logout">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q5="http://www.yourcompany.com/types/" minOccurs="0" name="request" nillable="true" type="q5:LogoutRequest" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LogoutResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q6="http://www.yourcompany.com/types/" minOccurs="0" name="LogoutResult" nillable="true" type="q6:LogoutResponse" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetCustomers">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q7="http://www.yourcompany.com/types/" minOccurs="0" name="request" nillable="true" type="q7:CustomerRequest" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetCustomersResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q8="http://www.yourcompany.com/types/" minOccurs="0" name="GetCustomersResult" nillable="true" type="q8:CustomerResponse" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SetCustomers">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q9="http://www.yourcompany.com/types/" minOccurs="0" name="request" nillable="true" type="q9:CustomerRequest" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SetCustomersResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q10="http://www.yourcompany.com/types/" minOccurs="0" name="SetCustomersResult" nillable="true" type="q10:CustomerResponse" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetOrders">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q11="http://www.yourcompany.com/types/" minOccurs="0" name="request" nillable="true" type="q11:OrderRequest" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetOrdersResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q12="http://www.yourcompany.com/types/" minOccurs="0" name="GetOrdersResult" nillable="true" type="q12:OrderResponse" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SetOrders">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q13="http://www.yourcompany.com/types/" minOccurs="0" name="request" nillable="true" type="q13:OrderRequest" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SetOrdersResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q14="http://www.yourcompany.com/types/" minOccurs="0" name="SetOrdersResult" nillable="true" type="q14:OrderResponse" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetProducts">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q15="http://www.yourcompany.com/types/" minOccurs="0" name="request" nillable="true" type="q15:ProductRequest" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetProductsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q16="http://www.yourcompany.com/types/" minOccurs="0" name="GetProductsResult" nillable="true" type="q16:ProductResponse" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SetProducts">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q17="http://www.yourcompany.com/types/" minOccurs="0" name="request" nillable="true" type="q17:ProductRequest" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SetProductsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q18="http://www.yourcompany.com/types/" minOccurs="0" name="SetProductsResult" nillable="true" type="q18:ProductResponse" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetCart">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q19="http://www.yourcompany.com/types/" minOccurs="0" name="request" nillable="true" type="q19:CartRequest" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetCartResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q20="http://www.yourcompany.com/types/" minOccurs="0" name="GetCartResult" nillable="true" type="q20:CartResponse" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SetCart">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q21="http://www.yourcompany.com/types/" minOccurs="0" name="request" nillable="true" type="q21:CartRequest" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SetCartResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q22="http://www.yourcompany.com/types/" minOccurs="0" name="SetCartResult" nillable="true" type="q22:CartResponse" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

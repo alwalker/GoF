@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{552A9A1E-2D11-4D2C-B88A-7D318E0E9BF4}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DataObjects</RootNamespace>
+    <AssemblyName>DataObjects</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>
+    </DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdoNet\Access\AccessCustomerDao.cs" />
+    <Compile Include="AdoNet\Access\AccessDaoFactory.cs" />
+    <Compile Include="AdoNet\Access\AccessOrderDao.cs" />
+    <Compile Include="AdoNet\Access\AccessProductDao.cs" />
+    <Compile Include="AdoNet\Db.cs" />
+    <Compile Include="AdoNet\Oracle\OracleCustomerDao.cs" />
+    <Compile Include="AdoNet\Oracle\OracleDaoFactory.cs" />
+    <Compile Include="AdoNet\Oracle\OracleOrderDao.cs" />
+    <Compile Include="AdoNet\Oracle\OracleProductDao.cs" />
+    <Compile Include="AdoNet\SqlServer\SqlServerCustomerDao.cs" />
+    <Compile Include="AdoNet\SqlServer\SqlServerDaoFactory.cs" />
+    <Compile Include="AdoNet\SqlServer\SqlServerOrderDao.cs" />
+    <Compile Include="AdoNet\SqlServer\SqlServerProductDao.cs" />
+    <Compile Include="DaoFactories.cs" />
+    <Compile Include="DaoFactory.cs" />
+    <Compile Include="DataAccess.cs" />
+    <Compile Include="ICustomerDao.cs" />
+    <Compile Include="IOrderDao.cs" />
+    <Compile Include="IProductDao.cs" />
+    <Compile Include="Linq\Action.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Action.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="Linq\DataContextFactory.cs" />
+    <Compile Include="Linq\EntityMapper\Mapper.cs" />
+    <Compile Include="Linq\LinqImplementation\LinqCustomerDao.cs" />
+    <Compile Include="Linq\LinqImplementation\LinqDaoFactory.cs" />
+    <Compile Include="Linq\LinqImplementation\LinqOrderDao.cs" />
+    <Compile Include="Linq\LinqImplementation\LinqProductDao.cs" />
+    <Compile Include="Linq\VersionConverter.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BusinessObjects\Business Objects.csproj">
+      <Project>{542EFC95-C2E9-4C6D-B35C-E221F01D38AE}</Project>
+      <Name>Business Objects</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Linq\Action.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>Action.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Linq\Action.dbml.layout">
+      <DependentUpon>Action.dbml</DependentUpon>
+    </None>
+    <None Include="_UML Diagram\ClassDiagram.cd" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

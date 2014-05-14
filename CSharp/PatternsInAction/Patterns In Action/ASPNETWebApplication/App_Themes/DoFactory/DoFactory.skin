@@ -1,0 +1,55 @@
+<%-- 
+     Patterns In Action Skin File.
+     Copyright (c) Data & Object Factory, LLC. All rights reserved.
+     www.dofactory.com
+--%>
+
+<%-- application-wide Button look-and-feel --%>
+
+<asp:Button 
+    BorderColor="Darkgray"
+    Font-Bold="True"
+    BorderWidth="1px"
+    BorderStyle="Outset"
+    ForeColor="DarkSlateGray"
+    BackColor="Orange"
+    runat="server">
+ </asp:Button>
+
+<%-- application-wide GridView look-and-feel --%>
+    
+<asp:GridView 
+    BorderColor="#CC9966"
+    BorderStyle="Solid" 
+    BorderWidth="1" 
+    CellPadding="4" 
+    runat="server">
+        <RowStyle BackColor="Floralwhite" ForeColor="#330099" />
+        <HeaderStyle BackColor="#990000" CssClass="sortableheader" />
+</asp:GridView>
+
+<%-- application-wide DetailsView look-and-feel --%>
+
+<asp:DetailsView 
+    Width="400" GridLines="None"
+    BorderColor="#FFFFFF"
+    BorderStyle="Solid" 
+    BorderWidth="2" 
+    CellSpacing="2"
+    CellPadding="4"
+    AutoGenerateRows="False" 
+    runat="server">
+     <FieldHeaderStyle BackColor="#990000" HorizontalAlign="Right" ForeColor="Beige" Font-Bold="True" Width="130" />
+     <RowStyle BackColor="Floralwhite" Width="270" />
+</asp:DetailsView>
+
+<%-- Skin for shopping cart's GridView --%>
+
+<asp:GridView SkinId="CartSkin" 
+   Width="560" BorderWidth="0" BorderColor="FloralWhite" CellPadding="0" 
+   runat="Server" >
+      <RowStyle BackColor="FloralWhite" ForeColor="#330033"  />
+      <AlternatingRowStyle BackColor="Snow" />
+      <HeaderStyle BackColor="#990000" Height="25" Font-Size="11pt" Font-Bold="True" ForeColor="#FFFFCC" />
+      <EmptyDataRowStyle BackColor="FloralWhite" Font-Size="11pt" Font-Bold="True" Font-Italic="True" Height="26" ForeColor="#990033" Width="560" />
+</asp:GridView>

@@ -1,0 +1,430 @@
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9A03C0E3-4F85-4207-8669-066D94644678}"
+	ProjectSection(SolutionItems) = preProject
+		License.txt = License.txt
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DoFactory.HeadFirst.Strategy", "DoFactory.HeadFirst.Strategy\DoFactory.HeadFirst.Strategy.vbproj", "{5F5C5079-FB77-4E5E-A7BB-C9566DC705C2}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DoFactory.HeadFirst.Observer.WeatherStation", "DoFactory.HeadFirst.Observer.WeatherStation\DoFactory.HeadFirst.Observer.WeatherStation.vbproj", "{BBFDEF36-3747-41AE-8E67-44799F4A4397}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DoFactory.HeadFirst.Observer.WeatherStationObservable", "DoFactory.HeadFirst.Observer.WeatherStationObservable\DoFactory.HeadFirst.Observer.WeatherStationObservable.vbproj", "{A8BA73FD-FA67-45EE-9412-3ABD25BDE17F}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DoFactory.HeadFirst.Observer.DotNet", "DoFactory.HeadFirst.Observer.Swing\DoFactory.HeadFirst.Observer.DotNet.vbproj", "{D80F8E3A-CB80-4B88-A1C1-EB276262C867}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DoFactory.HeadFirst.Decorator.Starbuzz", "DoFactory.HeadFirst.Decorator.Starbuzz\DoFactory.HeadFirst.Decorator.Starbuzz.vbproj", "{943B7878-4D60-47AF-B440-36D8829E71F4}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DoFactory.HeadFirst.Decorator.IO", "DoFactory.HeadFirst.Decorator.IO\DoFactory.HeadFirst.Decorator.IO.vbproj", "{057BB126-FFCC-4CA0-A5B4-0A9AD7DA6CE0}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DoFactory.HeadFirst.Factory.PizzaShop", "DoFactory.HeadFirst.Factory.PizzaShop\DoFactory.HeadFirst.Factory.PizzaShop.vbproj", "{9A98BA18-E928-43D8-81D5-9D71BBF838F7}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DoFactory.HeadFirst.Factory.Method.Pizza", "DoFactory.HeadFirst.Factory.Method.Pizza\DoFactory.HeadFirst.Factory.Method.Pizza.vbproj", "{EA0D5209-3787-4F24-BC23-66A5B12976CC}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DoFactory.HeadFirst.Factory.Abstract.Pizza", "DoFactory.HeadFirst.Factory.Abstract.Pizza\DoFactory.HeadFirst.Factory.Abstract.Pizza.vbproj", "{1C536373-5EBE-405A-93E1-A85A14DBD83D}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DoFactory.HeadFirst.Singleton.Classic", "DoFactory.HeadFirst.Singleton.Classic\DoFactory.HeadFirst.Singleton.Classic.vbproj", "{51E0EAA9-057C-49C2-ACD5-7CF54D71561E}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DoFactory.HeadFirst.Singleton.Chocolate", "DoFactory.HeadFirst.Singleton.Chocolate\DoFactory.HeadFirst.Singleton.Chocolate.vbproj", "{D95D00E9-85F4-4E77-9F6B-7523160FBA5D}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DoFactory.HeadFirst.Singleton.MultiThreading", "DoFactory.HeadFirst.Singleton.MultiThreading\DoFactory.HeadFirst.Singleton.MultiThreading.vbproj", "{B16DEDF5-A931-4F78-AADC-719575A3BCCA}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DoFactory.HeadFirst.Singleton.DoubleChecked", "DoFactory.HeadFirst.Singleton.DoubleChecked\DoFactory.HeadFirst.Singleton.DoubleChecked.vbproj", "{5845B3E6-A63A-4667-9846-51F9A9EFA230}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DoFactory.HeadFirst.Command.SimpleRemote", "DoFactory.HeadFirst.Command.SimpleRemote\DoFactory.HeadFirst.Command.SimpleRemote.vbproj", "{B150022F-D608-47E2-9F82-43096284BE9E}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DoFactory.HeadFirst.Command.Remote", "DoFactory.HeadFirst.Command.Remote\DoFactory.HeadFirst.Command.Remote.vbproj", "{447A0B21-EF25-477C-8D1F-FC75D920C7A4}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DoFactory.HeadFirst.Command.Undo", "DoFactory.HeadFirst.Command.Undo\DoFactory.HeadFirst.Command.Undo.vbproj", "{A0C9625C-9920-4C6A-B67B-BAB253169171}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DoFactory.HeadFirst.Command.Party", "DoFactory.HeadFirst.Command.Party\DoFactory.HeadFirst.Command.Party.vbproj", "{38D5C87C-2F7F-4658-A5A4-CADD69865212}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DoFactory.HeadFirst.Adapter.Ducks", "DoFactory.HeadFirst.Adapter.Duck\DoFactory.HeadFirst.Adapter.Ducks.vbproj", "{3C3BF829-3D03-44C3-8D66-69538E9DA22D}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DoFactory.HeadFirst.Adapter.IterEnum", "DoFactory.HeadFirst.Adapter.EnumIter\DoFactory.HeadFirst.Adapter.IterEnum.vbproj", "{0BB0E6E1-75A6-4266-80DD-D9F64AF64CD2}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DoFactory.HeadFirst.Template.SimpleBarista", "DoFactory.HeadFirst.Template.SimpleBarista\DoFactory.HeadFirst.Template.SimpleBarista.vbproj", "{B76B8EE8-393A-42BD-95A6-2534152E25DC}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DoFactory.HeadFirst.Template.Barista", "DoFactory.HeadFirst.Template.Barista\DoFactory.HeadFirst.Template.Barista.vbproj", "{F7C22D48-CDE7-4A31-A9AB-C88B6C767781}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DoFactory.HeadFirst.Iterator.DinerMerger", "DoFactory.HeadFirst.Iterator.DinerMerger\DoFactory.HeadFirst.Iterator.DinerMerger.vbproj", "{8C4B14BC-2D53-4AB2-A3A8-2D0EF4D2CFBE}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DoFactory.HeadFirst.Iterator.DinerMergerI", "DoFactory.HeadFirst.Iterator.DinerMergerI\DoFactory.HeadFirst.Iterator.DinerMergerI.vbproj", "{C84DEA34-E61F-41A0-9B85-71ED61E2E282}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DoFactory.HeadFirst.Iterator.DinerMergerCafe", "DoFactory.HeadFirst.Iterator.DinerMergerCafe\DoFactory.HeadFirst.Iterator.DinerMergerCafe.vbproj", "{0F5925B4-099C-42E4-8708-831F70C7AF5C}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DoFactory.HeadFirst.Composite.Menu", "DoFactory.HeadFirst.Composite.Menu\DoFactory.HeadFirst.Composite.Menu.vbproj", "{16D00731-E554-4A81-AE7B-5E1292E8DD91}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DoFactory.HeadFirst.Composite.MenuIterator", "DoFactory.HeadFirst.Composite.MenuIterator\DoFactory.HeadFirst.Composite.MenuIterator.vbproj", "{C6DE1C95-DBE6-4CD6-B8EB-51B014F7E6E3}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DoFactory.HeadFirst.State.Gumball", "DoFactory.HeadFirst.State.Gumball\DoFactory.HeadFirst.State.Gumball.vbproj", "{F30F5076-4ADD-43CC-A415-B4A2ED4BE83A}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DoFactory.HeadFirst.State.GumballState", "DoFactory.HeadFirst.State.GumballState\DoFactory.HeadFirst.State.GumballState.vbproj", "{6168C4C3-8DDE-473D-B573-A21EC58B94F8}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DoFactory.HeadFirst.State.GumballStateWinner", "DoFactory.HeadFirst.State.GumballStateWinner\DoFactory.HeadFirst.State.GumballStateWinner.vbproj", "{DC711AF4-0EB5-4B44-ADB2-8487F2D9E9D3}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DoFactory.HeadFirst.Proxy.GumballMonitor", "DoFactory.HeadFirst.Proxy.GumballMonitor\DoFactory.HeadFirst.Proxy.GumballMonitor.vbproj", "{955E2F9B-39EE-44A1-94E5-CD6CC4E9861F}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DoFactory.HeadFirst.Combining.Ducks", "DoFactory.HeadFirst.Compound.Ducks\DoFactory.HeadFirst.Combining.Ducks.vbproj", "{61ED7203-479B-4F0E-A1F5-5D80DD130EE7}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DoFactory.HeadFirst.Combining.Adapter", "DoFactory.HeadFirst.Compound.Adapter\DoFactory.HeadFirst.Combining.Adapter.vbproj", "{A4F680A5-7808-4777-8045-5B01B9677F65}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DoFactory.HeadFirst.Combining.Decorator", "DoFactory.HeadFirst.Compound.Decorator\DoFactory.HeadFirst.Combining.Decorator.vbproj", "{190A1162-5059-4480-984D-F2A07B0348CD}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DoFactory.HeadFirst.Combining.Factory", "DoFactory.HeadFirst.Compound.Factory\DoFactory.HeadFirst.Combining.Factory.vbproj", "{DA3944E4-3065-4035-8382-09EDC88C9BCF}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DoFactory.HeadFirst.Combining.Composite", "DoFactory.HeadFirst.Compound.Composite\DoFactory.HeadFirst.Combining.Composite.vbproj", "{35A03563-775E-4915-ACC3-F009226535E6}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DoFactory.HeadFirst.Combining.Observer", "DoFactory.HeadFirst.Compound.Observer\DoFactory.HeadFirst.Combining.Observer.vbproj", "{C231E5B9-2985-44F6-92C1-BF65D1892A5A}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DoFactory.HeadFirst.Template.Sort", "DoFactory.HeadFirst.Template.Sort\DoFactory.HeadFirst.Template.Sort.vbproj", "{6E9CB14C-A40E-475F-BF26-AE8FADF19BBA}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DoFactory.HeadFirst.Template.WindowsService", "DoFactory.HeadFirst.Template.WindowsService\DoFactory.HeadFirst.Template.WindowsService.vbproj", "{7DDC0DA4-126F-4769-B233-658715C4B3EA}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DoFactory.HeadFirst.Proxy.VirtualProxy", "DoFactory.HeadFirst.Proxy.VirtualProxy\DoFactory.HeadFirst.Proxy.VirtualProxy.vbproj", "{3164096D-7F05-4134-9FAE-B2C62EBC7F81}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DoFactory.HeadFirst.Combined.MVC", "DoFactory.HeadFirst.Combined.MVC\DoFactory.HeadFirst.Combined.MVC.vbproj", "{B010A3EB-E660-462B-8E0A-A2B59CFE21EB}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DoFactory.HeadFirst.Template.Control", "DoFactory.HeadFirst.Template.Control\DoFactory.HeadFirst.Template.Control.vbproj", "{141728F8-4992-4B8E-A1AD-FB2C5F37A975}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DoFactory.HeadFirst.Facade.HomeTheater", "DoFactory.HeadFirst.Facade.HomeTheater\DoFactory.HeadFirst.Facade.HomeTheater.vbproj", "{8E25F2BE-0709-4C85-85F1-E7AC55C07937}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DoFactory.HeadFirst.Proxy.GumballState.Machine", "DoFactory.HeadFirst.Proxy.GumballState.Machine\DoFactory.HeadFirst.Proxy.GumballState.Machine.vbproj", "{762AE60D-53CC-4ECD-BC5A-E263B1A36ED3}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DoFactory.HeadFirst.Proxy.GumballState.Host", "DoFactory.HeadFirst.Proxy.GumballState.Host\DoFactory.HeadFirst.Proxy.GumballState.Host.vbproj", "{574495B8-D688-4459-B8C0-4B4237A4814D}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DoFactory.HeadFirst.Proxy.GumballState.Client", "DoFactory.HeadFirst.Proxy.GumballState.Client\DoFactory.HeadFirst.Proxy.GumballState.Client.vbproj", "{E697CB5D-D36B-4CE6-A978-E14F61492D61}"
+	ProjectSection(ProjectDependencies) = postProject
+		{574495B8-D688-4459-B8C0-4B4237A4814D} = {574495B8-D688-4459-B8C0-4B4237A4814D}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 46
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = DoFactory.HeadFirst.Adapter.Duck\\DoFactory.HeadFirst.Adapter.Ducks.vbproj
+		SccLocalPath1 = .
+		SccProjectFilePathRelativizedFromConnection1 = DoFactory.HeadFirst.Adapter.Duck\\
+		SccProjectUniqueName2 = DoFactory.HeadFirst.Adapter.EnumIter\\DoFactory.HeadFirst.Adapter.IterEnum.vbproj
+		SccLocalPath2 = .
+		SccProjectFilePathRelativizedFromConnection2 = DoFactory.HeadFirst.Adapter.EnumIter\\
+		SccProjectUniqueName3 = DoFactory.HeadFirst.Combined.MVC\\DoFactory.HeadFirst.Combined.MVC.vbproj
+		SccLocalPath3 = .
+		SccProjectFilePathRelativizedFromConnection3 = DoFactory.HeadFirst.Combined.MVC\\
+		SccProjectUniqueName4 = DoFactory.HeadFirst.Command.Party\\DoFactory.HeadFirst.Command.Party.vbproj
+		SccLocalPath4 = .
+		SccProjectFilePathRelativizedFromConnection4 = DoFactory.HeadFirst.Command.Party\\
+		SccProjectUniqueName5 = DoFactory.HeadFirst.Command.Remote\\DoFactory.HeadFirst.Command.Remote.vbproj
+		SccLocalPath5 = .
+		SccProjectFilePathRelativizedFromConnection5 = DoFactory.HeadFirst.Command.Remote\\
+		SccProjectUniqueName6 = DoFactory.HeadFirst.Command.SimpleRemote\\DoFactory.HeadFirst.Command.SimpleRemote.vbproj
+		SccLocalPath6 = .
+		SccProjectFilePathRelativizedFromConnection6 = DoFactory.HeadFirst.Command.SimpleRemote\\
+		SccProjectUniqueName7 = DoFactory.HeadFirst.Command.Undo\\DoFactory.HeadFirst.Command.Undo.vbproj
+		SccLocalPath7 = .
+		SccProjectFilePathRelativizedFromConnection7 = DoFactory.HeadFirst.Command.Undo\\
+		SccProjectUniqueName8 = DoFactory.HeadFirst.Composite.Menu\\DoFactory.HeadFirst.Composite.Menu.vbproj
+		SccLocalPath8 = .
+		SccProjectFilePathRelativizedFromConnection8 = DoFactory.HeadFirst.Composite.Menu\\
+		SccProjectUniqueName9 = DoFactory.HeadFirst.Composite.MenuIterator\\DoFactory.HeadFirst.Composite.MenuIterator.vbproj
+		SccLocalPath9 = .
+		SccProjectFilePathRelativizedFromConnection9 = DoFactory.HeadFirst.Composite.MenuIterator\\
+		SccProjectUniqueName10 = DoFactory.HeadFirst.Compound.Adapter\\DoFactory.HeadFirst.Combining.Adapter.vbproj
+		SccLocalPath10 = .
+		SccProjectFilePathRelativizedFromConnection10 = DoFactory.HeadFirst.Compound.Adapter\\
+		SccProjectUniqueName11 = DoFactory.HeadFirst.Compound.Composite\\DoFactory.HeadFirst.Combining.Composite.vbproj
+		SccLocalPath11 = .
+		SccProjectFilePathRelativizedFromConnection11 = DoFactory.HeadFirst.Compound.Composite\\
+		SccProjectUniqueName12 = DoFactory.HeadFirst.Compound.Decorator\\DoFactory.HeadFirst.Combining.Decorator.vbproj
+		SccLocalPath12 = .
+		SccProjectFilePathRelativizedFromConnection12 = DoFactory.HeadFirst.Compound.Decorator\\
+		SccProjectUniqueName13 = DoFactory.HeadFirst.Compound.Ducks\\DoFactory.HeadFirst.Combining.Ducks.vbproj
+		SccLocalPath13 = .
+		SccProjectFilePathRelativizedFromConnection13 = DoFactory.HeadFirst.Compound.Ducks\\
+		SccProjectUniqueName14 = DoFactory.HeadFirst.Compound.Factory\\DoFactory.HeadFirst.Combining.Factory.vbproj
+		SccLocalPath14 = .
+		SccProjectFilePathRelativizedFromConnection14 = DoFactory.HeadFirst.Compound.Factory\\
+		SccProjectUniqueName15 = DoFactory.HeadFirst.Compound.Observer\\DoFactory.HeadFirst.Combining.Observer.vbproj
+		SccLocalPath15 = .
+		SccProjectFilePathRelativizedFromConnection15 = DoFactory.HeadFirst.Compound.Observer\\
+		SccProjectUniqueName16 = DoFactory.HeadFirst.Decorator.IO\\DoFactory.HeadFirst.Decorator.IO.vbproj
+		SccLocalPath16 = .
+		SccProjectFilePathRelativizedFromConnection16 = DoFactory.HeadFirst.Decorator.IO\\
+		SccProjectUniqueName17 = DoFactory.HeadFirst.Decorator.Starbuzz\\DoFactory.HeadFirst.Decorator.Starbuzz.vbproj
+		SccLocalPath17 = .
+		SccProjectFilePathRelativizedFromConnection17 = DoFactory.HeadFirst.Decorator.Starbuzz\\
+		SccProjectUniqueName18 = DoFactory.HeadFirst.Facade.HomeTheater\\DoFactory.HeadFirst.Facade.HomeTheater.vbproj
+		SccLocalPath18 = .
+		SccProjectFilePathRelativizedFromConnection18 = DoFactory.HeadFirst.Facade.HomeTheater\\
+		SccProjectUniqueName19 = DoFactory.HeadFirst.Factory.Abstract.Pizza\\DoFactory.HeadFirst.Factory.Abstract.Pizza.vbproj
+		SccLocalPath19 = .
+		SccProjectFilePathRelativizedFromConnection19 = DoFactory.HeadFirst.Factory.Abstract.Pizza\\
+		SccProjectUniqueName20 = DoFactory.HeadFirst.Factory.Method.Pizza\\DoFactory.HeadFirst.Factory.Method.Pizza.vbproj
+		SccLocalPath20 = .
+		SccProjectFilePathRelativizedFromConnection20 = DoFactory.HeadFirst.Factory.Method.Pizza\\
+		SccProjectUniqueName21 = DoFactory.HeadFirst.Factory.PizzaShop\\DoFactory.HeadFirst.Factory.PizzaShop.vbproj
+		SccLocalPath21 = .
+		SccProjectFilePathRelativizedFromConnection21 = DoFactory.HeadFirst.Factory.PizzaShop\\
+		SccProjectUniqueName22 = DoFactory.HeadFirst.Iterator.DinerMerger\\DoFactory.HeadFirst.Iterator.DinerMerger.vbproj
+		SccLocalPath22 = .
+		SccProjectFilePathRelativizedFromConnection22 = DoFactory.HeadFirst.Iterator.DinerMerger\\
+		SccProjectUniqueName23 = DoFactory.HeadFirst.Iterator.DinerMergerCafe\\DoFactory.HeadFirst.Iterator.DinerMergerCafe.vbproj
+		SccLocalPath23 = .
+		SccProjectFilePathRelativizedFromConnection23 = DoFactory.HeadFirst.Iterator.DinerMergerCafe\\
+		SccProjectUniqueName24 = DoFactory.HeadFirst.Iterator.DinerMergerI\\DoFactory.HeadFirst.Iterator.DinerMergerI.vbproj
+		SccLocalPath24 = .
+		SccProjectFilePathRelativizedFromConnection24 = DoFactory.HeadFirst.Iterator.DinerMergerI\\
+		SccProjectUniqueName25 = DoFactory.HeadFirst.Observer.Swing\\DoFactory.HeadFirst.Observer.DotNet.vbproj
+		SccLocalPath25 = .
+		SccProjectFilePathRelativizedFromConnection25 = DoFactory.HeadFirst.Observer.Swing\\
+		SccProjectUniqueName26 = DoFactory.HeadFirst.Observer.WeatherStation\\DoFactory.HeadFirst.Observer.WeatherStation.vbproj
+		SccLocalPath26 = .
+		SccProjectFilePathRelativizedFromConnection26 = DoFactory.HeadFirst.Observer.WeatherStation\\
+		SccProjectUniqueName27 = DoFactory.HeadFirst.Observer.WeatherStationObservable\\DoFactory.HeadFirst.Observer.WeatherStationObservable.vbproj
+		SccLocalPath27 = .
+		SccProjectFilePathRelativizedFromConnection27 = DoFactory.HeadFirst.Observer.WeatherStationObservable\\
+		SccProjectUniqueName28 = DoFactory.HeadFirst.Proxy.GumballMonitor\\DoFactory.HeadFirst.Proxy.GumballMonitor.vbproj
+		SccLocalPath28 = .
+		SccProjectFilePathRelativizedFromConnection28 = DoFactory.HeadFirst.Proxy.GumballMonitor\\
+		SccProjectUniqueName29 = DoFactory.HeadFirst.Proxy.GumballState.Client\\DoFactory.HeadFirst.Proxy.GumballState.Client.vbproj
+		SccLocalPath29 = .
+		SccProjectFilePathRelativizedFromConnection29 = DoFactory.HeadFirst.Proxy.GumballState.Client\\
+		SccProjectUniqueName30 = DoFactory.HeadFirst.Proxy.GumballState.Host\\DoFactory.HeadFirst.Proxy.GumballState.Host.vbproj
+		SccLocalPath30 = .
+		SccProjectFilePathRelativizedFromConnection30 = DoFactory.HeadFirst.Proxy.GumballState.Host\\
+		SccProjectUniqueName31 = DoFactory.HeadFirst.Proxy.GumballState.Machine\\DoFactory.HeadFirst.Proxy.GumballState.Machine.vbproj
+		SccLocalPath31 = .
+		SccProjectFilePathRelativizedFromConnection31 = DoFactory.HeadFirst.Proxy.GumballState.Machine\\
+		SccProjectUniqueName32 = DoFactory.HeadFirst.Proxy.VirtualProxy\\DoFactory.HeadFirst.Proxy.VirtualProxy.vbproj
+		SccLocalPath32 = .
+		SccProjectFilePathRelativizedFromConnection32 = DoFactory.HeadFirst.Proxy.VirtualProxy\\
+		SccProjectUniqueName33 = DoFactory.HeadFirst.Singleton.Chocolate\\DoFactory.HeadFirst.Singleton.Chocolate.vbproj
+		SccLocalPath33 = .
+		SccProjectFilePathRelativizedFromConnection33 = DoFactory.HeadFirst.Singleton.Chocolate\\
+		SccProjectUniqueName34 = DoFactory.HeadFirst.Singleton.Classic\\DoFactory.HeadFirst.Singleton.Classic.vbproj
+		SccLocalPath34 = .
+		SccProjectFilePathRelativizedFromConnection34 = DoFactory.HeadFirst.Singleton.Classic\\
+		SccProjectUniqueName35 = DoFactory.HeadFirst.Singleton.DoubleChecked\\DoFactory.HeadFirst.Singleton.DoubleChecked.vbproj
+		SccLocalPath35 = .
+		SccProjectFilePathRelativizedFromConnection35 = DoFactory.HeadFirst.Singleton.DoubleChecked\\
+		SccProjectUniqueName36 = DoFactory.HeadFirst.Singleton.MultiThreading\\DoFactory.HeadFirst.Singleton.MultiThreading.vbproj
+		SccLocalPath36 = .
+		SccProjectFilePathRelativizedFromConnection36 = DoFactory.HeadFirst.Singleton.MultiThreading\\
+		SccProjectUniqueName37 = DoFactory.HeadFirst.State.Gumball\\DoFactory.HeadFirst.State.Gumball.vbproj
+		SccLocalPath37 = .
+		SccProjectFilePathRelativizedFromConnection37 = DoFactory.HeadFirst.State.Gumball\\
+		SccProjectUniqueName38 = DoFactory.HeadFirst.State.GumballState\\DoFactory.HeadFirst.State.GumballState.vbproj
+		SccLocalPath38 = .
+		SccProjectFilePathRelativizedFromConnection38 = DoFactory.HeadFirst.State.GumballState\\
+		SccProjectUniqueName39 = DoFactory.HeadFirst.State.GumballStateWinner\\DoFactory.HeadFirst.State.GumballStateWinner.vbproj
+		SccLocalPath39 = .
+		SccProjectFilePathRelativizedFromConnection39 = DoFactory.HeadFirst.State.GumballStateWinner\\
+		SccProjectUniqueName40 = DoFactory.HeadFirst.Strategy\\DoFactory.HeadFirst.Strategy.vbproj
+		SccLocalPath40 = .
+		SccProjectFilePathRelativizedFromConnection40 = DoFactory.HeadFirst.Strategy\\
+		SccProjectUniqueName41 = DoFactory.HeadFirst.Template.Barista\\DoFactory.HeadFirst.Template.Barista.vbproj
+		SccLocalPath41 = .
+		SccProjectFilePathRelativizedFromConnection41 = DoFactory.HeadFirst.Template.Barista\\
+		SccProjectUniqueName42 = DoFactory.HeadFirst.Template.Control\\DoFactory.HeadFirst.Template.Control.vbproj
+		SccLocalPath42 = .
+		SccProjectFilePathRelativizedFromConnection42 = DoFactory.HeadFirst.Template.Control\\
+		SccProjectUniqueName43 = DoFactory.HeadFirst.Template.SimpleBarista\\DoFactory.HeadFirst.Template.SimpleBarista.vbproj
+		SccLocalPath43 = .
+		SccProjectFilePathRelativizedFromConnection43 = DoFactory.HeadFirst.Template.SimpleBarista\\
+		SccProjectUniqueName44 = DoFactory.HeadFirst.Template.Sort\\DoFactory.HeadFirst.Template.Sort.vbproj
+		SccLocalPath44 = .
+		SccProjectFilePathRelativizedFromConnection44 = DoFactory.HeadFirst.Template.Sort\\
+		SccProjectUniqueName45 = DoFactory.HeadFirst.Template.WindowsService\\DoFactory.HeadFirst.Template.WindowsService.vbproj
+		SccLocalPath45 = .
+		SccProjectFilePathRelativizedFromConnection45 = DoFactory.HeadFirst.Template.WindowsService\\
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5F5C5079-FB77-4E5E-A7BB-C9566DC705C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F5C5079-FB77-4E5E-A7BB-C9566DC705C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F5C5079-FB77-4E5E-A7BB-C9566DC705C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F5C5079-FB77-4E5E-A7BB-C9566DC705C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBFDEF36-3747-41AE-8E67-44799F4A4397}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBFDEF36-3747-41AE-8E67-44799F4A4397}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBFDEF36-3747-41AE-8E67-44799F4A4397}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBFDEF36-3747-41AE-8E67-44799F4A4397}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8BA73FD-FA67-45EE-9412-3ABD25BDE17F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8BA73FD-FA67-45EE-9412-3ABD25BDE17F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8BA73FD-FA67-45EE-9412-3ABD25BDE17F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8BA73FD-FA67-45EE-9412-3ABD25BDE17F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D80F8E3A-CB80-4B88-A1C1-EB276262C867}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D80F8E3A-CB80-4B88-A1C1-EB276262C867}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D80F8E3A-CB80-4B88-A1C1-EB276262C867}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D80F8E3A-CB80-4B88-A1C1-EB276262C867}.Release|Any CPU.Build.0 = Release|Any CPU
+		{943B7878-4D60-47AF-B440-36D8829E71F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{943B7878-4D60-47AF-B440-36D8829E71F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{943B7878-4D60-47AF-B440-36D8829E71F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{943B7878-4D60-47AF-B440-36D8829E71F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{057BB126-FFCC-4CA0-A5B4-0A9AD7DA6CE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{057BB126-FFCC-4CA0-A5B4-0A9AD7DA6CE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{057BB126-FFCC-4CA0-A5B4-0A9AD7DA6CE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{057BB126-FFCC-4CA0-A5B4-0A9AD7DA6CE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A98BA18-E928-43D8-81D5-9D71BBF838F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A98BA18-E928-43D8-81D5-9D71BBF838F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A98BA18-E928-43D8-81D5-9D71BBF838F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A98BA18-E928-43D8-81D5-9D71BBF838F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA0D5209-3787-4F24-BC23-66A5B12976CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA0D5209-3787-4F24-BC23-66A5B12976CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA0D5209-3787-4F24-BC23-66A5B12976CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA0D5209-3787-4F24-BC23-66A5B12976CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C536373-5EBE-405A-93E1-A85A14DBD83D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C536373-5EBE-405A-93E1-A85A14DBD83D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C536373-5EBE-405A-93E1-A85A14DBD83D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C536373-5EBE-405A-93E1-A85A14DBD83D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51E0EAA9-057C-49C2-ACD5-7CF54D71561E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51E0EAA9-057C-49C2-ACD5-7CF54D71561E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51E0EAA9-057C-49C2-ACD5-7CF54D71561E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51E0EAA9-057C-49C2-ACD5-7CF54D71561E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D95D00E9-85F4-4E77-9F6B-7523160FBA5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D95D00E9-85F4-4E77-9F6B-7523160FBA5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D95D00E9-85F4-4E77-9F6B-7523160FBA5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D95D00E9-85F4-4E77-9F6B-7523160FBA5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B16DEDF5-A931-4F78-AADC-719575A3BCCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B16DEDF5-A931-4F78-AADC-719575A3BCCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B16DEDF5-A931-4F78-AADC-719575A3BCCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B16DEDF5-A931-4F78-AADC-719575A3BCCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5845B3E6-A63A-4667-9846-51F9A9EFA230}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5845B3E6-A63A-4667-9846-51F9A9EFA230}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5845B3E6-A63A-4667-9846-51F9A9EFA230}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5845B3E6-A63A-4667-9846-51F9A9EFA230}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B150022F-D608-47E2-9F82-43096284BE9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B150022F-D608-47E2-9F82-43096284BE9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B150022F-D608-47E2-9F82-43096284BE9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B150022F-D608-47E2-9F82-43096284BE9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{447A0B21-EF25-477C-8D1F-FC75D920C7A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{447A0B21-EF25-477C-8D1F-FC75D920C7A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{447A0B21-EF25-477C-8D1F-FC75D920C7A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{447A0B21-EF25-477C-8D1F-FC75D920C7A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0C9625C-9920-4C6A-B67B-BAB253169171}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0C9625C-9920-4C6A-B67B-BAB253169171}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0C9625C-9920-4C6A-B67B-BAB253169171}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0C9625C-9920-4C6A-B67B-BAB253169171}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38D5C87C-2F7F-4658-A5A4-CADD69865212}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38D5C87C-2F7F-4658-A5A4-CADD69865212}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38D5C87C-2F7F-4658-A5A4-CADD69865212}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38D5C87C-2F7F-4658-A5A4-CADD69865212}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C3BF829-3D03-44C3-8D66-69538E9DA22D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C3BF829-3D03-44C3-8D66-69538E9DA22D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C3BF829-3D03-44C3-8D66-69538E9DA22D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C3BF829-3D03-44C3-8D66-69538E9DA22D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BB0E6E1-75A6-4266-80DD-D9F64AF64CD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BB0E6E1-75A6-4266-80DD-D9F64AF64CD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BB0E6E1-75A6-4266-80DD-D9F64AF64CD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BB0E6E1-75A6-4266-80DD-D9F64AF64CD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B76B8EE8-393A-42BD-95A6-2534152E25DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B76B8EE8-393A-42BD-95A6-2534152E25DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B76B8EE8-393A-42BD-95A6-2534152E25DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B76B8EE8-393A-42BD-95A6-2534152E25DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7C22D48-CDE7-4A31-A9AB-C88B6C767781}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7C22D48-CDE7-4A31-A9AB-C88B6C767781}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7C22D48-CDE7-4A31-A9AB-C88B6C767781}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7C22D48-CDE7-4A31-A9AB-C88B6C767781}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C4B14BC-2D53-4AB2-A3A8-2D0EF4D2CFBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C4B14BC-2D53-4AB2-A3A8-2D0EF4D2CFBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C4B14BC-2D53-4AB2-A3A8-2D0EF4D2CFBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C4B14BC-2D53-4AB2-A3A8-2D0EF4D2CFBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C84DEA34-E61F-41A0-9B85-71ED61E2E282}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C84DEA34-E61F-41A0-9B85-71ED61E2E282}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C84DEA34-E61F-41A0-9B85-71ED61E2E282}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C84DEA34-E61F-41A0-9B85-71ED61E2E282}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F5925B4-099C-42E4-8708-831F70C7AF5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F5925B4-099C-42E4-8708-831F70C7AF5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F5925B4-099C-42E4-8708-831F70C7AF5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F5925B4-099C-42E4-8708-831F70C7AF5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16D00731-E554-4A81-AE7B-5E1292E8DD91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16D00731-E554-4A81-AE7B-5E1292E8DD91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16D00731-E554-4A81-AE7B-5E1292E8DD91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16D00731-E554-4A81-AE7B-5E1292E8DD91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6DE1C95-DBE6-4CD6-B8EB-51B014F7E6E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6DE1C95-DBE6-4CD6-B8EB-51B014F7E6E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6DE1C95-DBE6-4CD6-B8EB-51B014F7E6E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6DE1C95-DBE6-4CD6-B8EB-51B014F7E6E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F30F5076-4ADD-43CC-A415-B4A2ED4BE83A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F30F5076-4ADD-43CC-A415-B4A2ED4BE83A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F30F5076-4ADD-43CC-A415-B4A2ED4BE83A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F30F5076-4ADD-43CC-A415-B4A2ED4BE83A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6168C4C3-8DDE-473D-B573-A21EC58B94F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6168C4C3-8DDE-473D-B573-A21EC58B94F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6168C4C3-8DDE-473D-B573-A21EC58B94F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6168C4C3-8DDE-473D-B573-A21EC58B94F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC711AF4-0EB5-4B44-ADB2-8487F2D9E9D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC711AF4-0EB5-4B44-ADB2-8487F2D9E9D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC711AF4-0EB5-4B44-ADB2-8487F2D9E9D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC711AF4-0EB5-4B44-ADB2-8487F2D9E9D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{955E2F9B-39EE-44A1-94E5-CD6CC4E9861F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{955E2F9B-39EE-44A1-94E5-CD6CC4E9861F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{955E2F9B-39EE-44A1-94E5-CD6CC4E9861F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{955E2F9B-39EE-44A1-94E5-CD6CC4E9861F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61ED7203-479B-4F0E-A1F5-5D80DD130EE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61ED7203-479B-4F0E-A1F5-5D80DD130EE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61ED7203-479B-4F0E-A1F5-5D80DD130EE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61ED7203-479B-4F0E-A1F5-5D80DD130EE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4F680A5-7808-4777-8045-5B01B9677F65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4F680A5-7808-4777-8045-5B01B9677F65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4F680A5-7808-4777-8045-5B01B9677F65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4F680A5-7808-4777-8045-5B01B9677F65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{190A1162-5059-4480-984D-F2A07B0348CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{190A1162-5059-4480-984D-F2A07B0348CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{190A1162-5059-4480-984D-F2A07B0348CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{190A1162-5059-4480-984D-F2A07B0348CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA3944E4-3065-4035-8382-09EDC88C9BCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA3944E4-3065-4035-8382-09EDC88C9BCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA3944E4-3065-4035-8382-09EDC88C9BCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA3944E4-3065-4035-8382-09EDC88C9BCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35A03563-775E-4915-ACC3-F009226535E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35A03563-775E-4915-ACC3-F009226535E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35A03563-775E-4915-ACC3-F009226535E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35A03563-775E-4915-ACC3-F009226535E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C231E5B9-2985-44F6-92C1-BF65D1892A5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C231E5B9-2985-44F6-92C1-BF65D1892A5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C231E5B9-2985-44F6-92C1-BF65D1892A5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C231E5B9-2985-44F6-92C1-BF65D1892A5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E9CB14C-A40E-475F-BF26-AE8FADF19BBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E9CB14C-A40E-475F-BF26-AE8FADF19BBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E9CB14C-A40E-475F-BF26-AE8FADF19BBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E9CB14C-A40E-475F-BF26-AE8FADF19BBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DDC0DA4-126F-4769-B233-658715C4B3EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DDC0DA4-126F-4769-B233-658715C4B3EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DDC0DA4-126F-4769-B233-658715C4B3EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DDC0DA4-126F-4769-B233-658715C4B3EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3164096D-7F05-4134-9FAE-B2C62EBC7F81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3164096D-7F05-4134-9FAE-B2C62EBC7F81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3164096D-7F05-4134-9FAE-B2C62EBC7F81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3164096D-7F05-4134-9FAE-B2C62EBC7F81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B010A3EB-E660-462B-8E0A-A2B59CFE21EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B010A3EB-E660-462B-8E0A-A2B59CFE21EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B010A3EB-E660-462B-8E0A-A2B59CFE21EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B010A3EB-E660-462B-8E0A-A2B59CFE21EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{141728F8-4992-4B8E-A1AD-FB2C5F37A975}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{141728F8-4992-4B8E-A1AD-FB2C5F37A975}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{141728F8-4992-4B8E-A1AD-FB2C5F37A975}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{141728F8-4992-4B8E-A1AD-FB2C5F37A975}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E25F2BE-0709-4C85-85F1-E7AC55C07937}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E25F2BE-0709-4C85-85F1-E7AC55C07937}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E25F2BE-0709-4C85-85F1-E7AC55C07937}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E25F2BE-0709-4C85-85F1-E7AC55C07937}.Release|Any CPU.Build.0 = Release|Any CPU
+		{762AE60D-53CC-4ECD-BC5A-E263B1A36ED3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{762AE60D-53CC-4ECD-BC5A-E263B1A36ED3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{762AE60D-53CC-4ECD-BC5A-E263B1A36ED3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{762AE60D-53CC-4ECD-BC5A-E263B1A36ED3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{574495B8-D688-4459-B8C0-4B4237A4814D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{574495B8-D688-4459-B8C0-4B4237A4814D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{574495B8-D688-4459-B8C0-4B4237A4814D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{574495B8-D688-4459-B8C0-4B4237A4814D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E697CB5D-D36B-4CE6-A978-E14F61492D61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E697CB5D-D36B-4CE6-A978-E14F61492D61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E697CB5D-D36B-4CE6-A978-E14F61492D61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E697CB5D-D36B-4CE6-A978-E14F61492D61}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

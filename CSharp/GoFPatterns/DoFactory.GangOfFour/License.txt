@@ -1,0 +1,25 @@
+================================================
+LICENSE AND WARRANTY
+------------------------------------------------
+
+If this is a single-user license the product
+can only be used by a single user. If you  
+purchased the 16-user license then the product 
+can be used by up to 16 developers concurrently.
+Site licenses are restricted to a single
+facility at a given physical address.
+
+You are free to use the source code in your
+own business application development, but  
+remember that this product and its source code
+are intended for educational purposes only.
+
+THIS CODE AND INFORMATION IS PROVIDED "AS IS"
+WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED
+OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND/OR
+FITNESS FOR A PARTICULAR PURPOSE.
+
+------------------------------------------------
+Copyright (C), Data & Object Factory, LLC
+All rights reserved. www.dofactory.com

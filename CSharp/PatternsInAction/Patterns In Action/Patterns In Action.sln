@@ -1,0 +1,300 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{273FF589-DE8E-4C86-A39E-FB14A6AF5261}"
+	ProjectSection(SolutionItems) = preProject
+		Solution Items\License.txt = Solution Items\License.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Presentation Layer", "1. Presentation Layer", "{21FA1399-420C-41E7-97AB-1303D0CF45E3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Service Layer", "3. Service Layer", "{B50905E4-7868-40D0-A1FE-9E697318C824}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. Business Layer", "4. Business Layer", "{BED482CD-D7D7-4CC7-B0C6-11A30916F2C1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5. Data Layer", "5. Data Layer", "{E2DF3D1A-BE80-42CD-A533-15442B320C25}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Framework", "Framework", "{12D34011-0137-4A9A-B0C1-7DFFB572E35D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ASP.NET", "ASP.NET", "{EFB929D0-CE24-4BE1-8CE9-52F14558C8F7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Windows Forms", "Windows Forms", "{C5CB1D1D-EC9E-4FA1-B72B-703B8A812081}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WPF", "WPF", "{A1AD627E-4821-4185-9AE6-228AD12023A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data Objects", "DataObjects\Data Objects.csproj", "{552A9A1E-2D11-4D2C-B88A-7D318E0E9BF4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Business Objects", "BusinessObjects\Business Objects.csproj", "{542EFC95-C2E9-4C6D-B35C-E221F01D38AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Action Service", "ActionService\Action Service.csproj", "{30EB3C29-0AD3-4894-A8F5-4E9FB03A25C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Image Service", "ImageService\Image Service.csproj", "{C6EB34E8-2D2E-4405-BE3A-6F7B822B92EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPNET Web Application", "ASPNETWebApplication\ASPNET Web Application.csproj", "{F70D100C-9A11-42A4-93A7-47A844694D50}"
+	ProjectSection(ProjectDependencies) = postProject
+		{39203931-67F5-411F-AE13-2F817081B4D6} = {39203931-67F5-411F-AE13-2F817081B4D6}
+		{DBDD30E4-E1FA-49F8-8A38-F8DF3E9E0D1D} = {DBDD30E4-E1FA-49F8-8A38-F8DF3E9E0D1D}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Windows Forms Application", "WindowsFormsApplication\Windows Forms Application.csproj", "{4480950E-7BF7-4845-8E87-0F9F83E1746D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF Application", "WPFApplication\WPF Application.csproj", "{051BDAAB-6AB7-4D12-A4CC-A723280281CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cart", "Cart\Cart.csproj", "{78B9B198-7E2D-480B-8E0D-F195BD1C94F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Controls", "Controls\Controls.csproj", "{593AD240-EF87-4EA4-8D3E-8463BD8E0CB9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Log", "Log\Log.csproj", "{09C53720-C84B-4462-A2C1-604E9DD0FCBD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Encryption", "Encryption\Encryption.csproj", "{C7668E19-E679-4FE4-8BBF-22C0131432B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Transactions", "Transactions\Transactions.csproj", "{D3320461-8502-4838-806F-8A8E328F2B5F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCFProxy", "WCFProxy\WCFProxy.csproj", "{F3587862-5ACE-44A3-B907-82F0051FCAE0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Windows Forms Model", "WindowsFormsModel\Windows Forms Model.csproj", "{E9A68F77-E061-4535-9F71-E6028F520D3F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{39203931-67F5-411F-AE13-2F817081B4D6} = {39203931-67F5-411F-AE13-2F817081B4D6}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Windows Forms Presenter", "WindowsFormsPresenter\Windows Forms Presenter.csproj", "{F178D8FB-9CC2-401F-995C-F24170A5966D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF Model", "WPFModel\WPF Model.csproj", "{B8F7CC54-E356-4D11-B2D7-F72DE478F148}"
+	ProjectSection(ProjectDependencies) = postProject
+		{39203931-67F5-411F-AE13-2F817081B4D6} = {39203931-67F5-411F-AE13-2F817081B4D6}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF ViewModel", "WPFViewModel\WPF ViewModel.csproj", "{8DD41B96-C538-4647-868D-CAEE10DE79E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViewState", "ViewState\ViewState.csproj", "{71BA1D47-EDEA-41F1-9CA7-590EAE540B4F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Hosting Layer", "2. Hosting Layer", "{0592114A-502C-410E-9887-949B6C7A4D70}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Host.WCF.ActionServer", "Host.WCF.ActionServer\Host.WCF.ActionServer.csproj", "{39203931-67F5-411F-AE13-2F817081B4D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Host.WCF.ImageServer", "Host.WCF.ImageServer\Host.WCF.ImageServer.csproj", "{DBDD30E4-E1FA-49F8-8A38-F8DF3E9E0D1D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Windows Forms View", "WindowsFormsView\Windows Forms View.csproj", "{D08D28FC-28A7-4596-93D1-00D7EB40863E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sql Server", "Sql Server", "{AA7AFAF5-2C8A-49BC-9978-26ED3F870417}"
+	ProjectSection(SolutionItems) = preProject
+		Solution Items\Sql Server\Action.sql = Solution Items\Sql Server\Action.sql
+		Solution Items\Sql Server\Aspnetdb.sql = Solution Items\Sql Server\Aspnetdb.sql
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{19AA3F8D-C9D0-468A-B6C7-7AACAC7539A1}"
+	ProjectSection(SolutionItems) = preProject
+		Solution Items\Documentation\Documentation.chm = Solution Items\Documentation\Documentation.chm
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 22
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = ActionService\\Action\u0020Service.csproj
+		SccProjectTopLevelParentUniqueName1 = Patterns\u0020In\u0020Action.sln
+		SccLocalPath1 = .
+		SccProjectFilePathRelativizedFromConnection1 = ActionService\\
+		SccProjectUniqueName2 = ASPNETWebApplication\\ASPNET\u0020Web\u0020Application.csproj
+		SccProjectTopLevelParentUniqueName2 = Patterns\u0020In\u0020Action.sln
+		SccLocalPath2 = .
+		SccProjectFilePathRelativizedFromConnection2 = ASPNETWebApplication\\
+		SccProjectUniqueName3 = BusinessObjects\\Business\u0020Objects.csproj
+		SccProjectTopLevelParentUniqueName3 = Patterns\u0020In\u0020Action.sln
+		SccLocalPath3 = .
+		SccProjectFilePathRelativizedFromConnection3 = BusinessObjects\\
+		SccProjectUniqueName4 = Cart\\Cart.csproj
+		SccProjectTopLevelParentUniqueName4 = Patterns\u0020In\u0020Action.sln
+		SccLocalPath4 = .
+		SccProjectFilePathRelativizedFromConnection4 = Cart\\
+		SccProjectUniqueName5 = Controls\\Controls.csproj
+		SccProjectTopLevelParentUniqueName5 = Patterns\u0020In\u0020Action.sln
+		SccLocalPath5 = .
+		SccProjectFilePathRelativizedFromConnection5 = Controls\\
+		SccProjectUniqueName6 = DataObjects\\Data\u0020Objects.csproj
+		SccProjectTopLevelParentUniqueName6 = Patterns\u0020In\u0020Action.sln
+		SccLocalPath6 = .
+		SccProjectFilePathRelativizedFromConnection6 = DataObjects\\
+		SccProjectUniqueName7 = Encryption\\Encryption.csproj
+		SccProjectTopLevelParentUniqueName7 = Patterns\u0020In\u0020Action.sln
+		SccLocalPath7 = .
+		SccProjectFilePathRelativizedFromConnection7 = Encryption\\
+		SccProjectUniqueName8 = Host.WCF.ActionServer\\Host.WCF.ActionServer.csproj
+		SccProjectTopLevelParentUniqueName8 = Patterns\u0020In\u0020Action.sln
+		SccLocalPath8 = .
+		SccProjectFilePathRelativizedFromConnection8 = Host.WCF.ActionServer\\
+		SccProjectUniqueName9 = Host.WCF.ImageServer\\Host.WCF.ImageServer.csproj
+		SccProjectTopLevelParentUniqueName9 = Patterns\u0020In\u0020Action.sln
+		SccLocalPath9 = .
+		SccProjectFilePathRelativizedFromConnection9 = Host.WCF.ImageServer\\
+		SccProjectUniqueName10 = ImageService\\Image\u0020Service.csproj
+		SccProjectTopLevelParentUniqueName10 = Patterns\u0020In\u0020Action.sln
+		SccLocalPath10 = .
+		SccProjectFilePathRelativizedFromConnection10 = ImageService\\
+		SccProjectUniqueName11 = Log\\Log.csproj
+		SccProjectTopLevelParentUniqueName11 = Patterns\u0020In\u0020Action.sln
+		SccLocalPath11 = .
+		SccProjectFilePathRelativizedFromConnection11 = Log\\
+		SccProjectUniqueName12 = Transactions\\Transactions.csproj
+		SccProjectTopLevelParentUniqueName12 = Patterns\u0020In\u0020Action.sln
+		SccLocalPath12 = .
+		SccProjectFilePathRelativizedFromConnection12 = Transactions\\
+		SccProjectUniqueName13 = ViewState\\ViewState.csproj
+		SccProjectTopLevelParentUniqueName13 = Patterns\u0020In\u0020Action.sln
+		SccLocalPath13 = .
+		SccProjectFilePathRelativizedFromConnection13 = ViewState\\
+		SccProjectUniqueName14 = WCFProxy\\WCFProxy.csproj
+		SccProjectTopLevelParentUniqueName14 = Patterns\u0020In\u0020Action.sln
+		SccLocalPath14 = .
+		SccProjectFilePathRelativizedFromConnection14 = WCFProxy\\
+		SccProjectUniqueName15 = WindowsFormsApplication\\Windows\u0020Forms\u0020Application.csproj
+		SccProjectTopLevelParentUniqueName15 = Patterns\u0020In\u0020Action.sln
+		SccLocalPath15 = .
+		SccProjectFilePathRelativizedFromConnection15 = WindowsFormsApplication\\
+		SccProjectUniqueName16 = WindowsFormsModel\\Windows\u0020Forms\u0020Model.csproj
+		SccProjectTopLevelParentUniqueName16 = Patterns\u0020In\u0020Action.sln
+		SccLocalPath16 = .
+		SccProjectFilePathRelativizedFromConnection16 = WindowsFormsModel\\
+		SccProjectUniqueName17 = WindowsFormsPresenter\\Windows\u0020Forms\u0020Presenter.csproj
+		SccProjectTopLevelParentUniqueName17 = Patterns\u0020In\u0020Action.sln
+		SccLocalPath17 = .
+		SccProjectFilePathRelativizedFromConnection17 = WindowsFormsPresenter\\
+		SccProjectUniqueName18 = WindowsFormsView\\Windows\u0020Forms\u0020View.csproj
+		SccProjectTopLevelParentUniqueName18 = Patterns\u0020In\u0020Action.sln
+		SccLocalPath18 = .
+		SccProjectFilePathRelativizedFromConnection18 = WindowsFormsView\\
+		SccProjectUniqueName19 = WPFApplication\\WPF\u0020Application.csproj
+		SccProjectTopLevelParentUniqueName19 = Patterns\u0020In\u0020Action.sln
+		SccLocalPath19 = .
+		SccProjectFilePathRelativizedFromConnection19 = WPFApplication\\
+		SccProjectUniqueName20 = WPFModel\\WPF\u0020Model.csproj
+		SccProjectTopLevelParentUniqueName20 = Patterns\u0020In\u0020Action.sln
+		SccLocalPath20 = .
+		SccProjectFilePathRelativizedFromConnection20 = WPFModel\\
+		SccProjectUniqueName21 = WPFViewModel\\WPF\u0020ViewModel.csproj
+		SccProjectTopLevelParentUniqueName21 = Patterns\u0020In\u0020Action.sln
+		SccLocalPath21 = .
+		SccProjectFilePathRelativizedFromConnection21 = WPFViewModel\\
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{552A9A1E-2D11-4D2C-B88A-7D318E0E9BF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{552A9A1E-2D11-4D2C-B88A-7D318E0E9BF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{552A9A1E-2D11-4D2C-B88A-7D318E0E9BF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{552A9A1E-2D11-4D2C-B88A-7D318E0E9BF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{542EFC95-C2E9-4C6D-B35C-E221F01D38AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{542EFC95-C2E9-4C6D-B35C-E221F01D38AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{542EFC95-C2E9-4C6D-B35C-E221F01D38AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{542EFC95-C2E9-4C6D-B35C-E221F01D38AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30EB3C29-0AD3-4894-A8F5-4E9FB03A25C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30EB3C29-0AD3-4894-A8F5-4E9FB03A25C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30EB3C29-0AD3-4894-A8F5-4E9FB03A25C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30EB3C29-0AD3-4894-A8F5-4E9FB03A25C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6EB34E8-2D2E-4405-BE3A-6F7B822B92EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6EB34E8-2D2E-4405-BE3A-6F7B822B92EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6EB34E8-2D2E-4405-BE3A-6F7B822B92EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6EB34E8-2D2E-4405-BE3A-6F7B822B92EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F70D100C-9A11-42A4-93A7-47A844694D50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F70D100C-9A11-42A4-93A7-47A844694D50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F70D100C-9A11-42A4-93A7-47A844694D50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F70D100C-9A11-42A4-93A7-47A844694D50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4480950E-7BF7-4845-8E87-0F9F83E1746D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4480950E-7BF7-4845-8E87-0F9F83E1746D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4480950E-7BF7-4845-8E87-0F9F83E1746D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4480950E-7BF7-4845-8E87-0F9F83E1746D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{051BDAAB-6AB7-4D12-A4CC-A723280281CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{051BDAAB-6AB7-4D12-A4CC-A723280281CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{051BDAAB-6AB7-4D12-A4CC-A723280281CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{051BDAAB-6AB7-4D12-A4CC-A723280281CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78B9B198-7E2D-480B-8E0D-F195BD1C94F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78B9B198-7E2D-480B-8E0D-F195BD1C94F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78B9B198-7E2D-480B-8E0D-F195BD1C94F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78B9B198-7E2D-480B-8E0D-F195BD1C94F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{593AD240-EF87-4EA4-8D3E-8463BD8E0CB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{593AD240-EF87-4EA4-8D3E-8463BD8E0CB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{593AD240-EF87-4EA4-8D3E-8463BD8E0CB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{593AD240-EF87-4EA4-8D3E-8463BD8E0CB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09C53720-C84B-4462-A2C1-604E9DD0FCBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09C53720-C84B-4462-A2C1-604E9DD0FCBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09C53720-C84B-4462-A2C1-604E9DD0FCBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09C53720-C84B-4462-A2C1-604E9DD0FCBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7668E19-E679-4FE4-8BBF-22C0131432B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7668E19-E679-4FE4-8BBF-22C0131432B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7668E19-E679-4FE4-8BBF-22C0131432B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7668E19-E679-4FE4-8BBF-22C0131432B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3320461-8502-4838-806F-8A8E328F2B5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3320461-8502-4838-806F-8A8E328F2B5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3320461-8502-4838-806F-8A8E328F2B5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3320461-8502-4838-806F-8A8E328F2B5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3587862-5ACE-44A3-B907-82F0051FCAE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3587862-5ACE-44A3-B907-82F0051FCAE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3587862-5ACE-44A3-B907-82F0051FCAE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3587862-5ACE-44A3-B907-82F0051FCAE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9A68F77-E061-4535-9F71-E6028F520D3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9A68F77-E061-4535-9F71-E6028F520D3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9A68F77-E061-4535-9F71-E6028F520D3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9A68F77-E061-4535-9F71-E6028F520D3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F178D8FB-9CC2-401F-995C-F24170A5966D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F178D8FB-9CC2-401F-995C-F24170A5966D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F178D8FB-9CC2-401F-995C-F24170A5966D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F178D8FB-9CC2-401F-995C-F24170A5966D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8F7CC54-E356-4D11-B2D7-F72DE478F148}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8F7CC54-E356-4D11-B2D7-F72DE478F148}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8F7CC54-E356-4D11-B2D7-F72DE478F148}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8F7CC54-E356-4D11-B2D7-F72DE478F148}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DD41B96-C538-4647-868D-CAEE10DE79E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DD41B96-C538-4647-868D-CAEE10DE79E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DD41B96-C538-4647-868D-CAEE10DE79E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DD41B96-C538-4647-868D-CAEE10DE79E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71BA1D47-EDEA-41F1-9CA7-590EAE540B4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71BA1D47-EDEA-41F1-9CA7-590EAE540B4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71BA1D47-EDEA-41F1-9CA7-590EAE540B4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71BA1D47-EDEA-41F1-9CA7-590EAE540B4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39203931-67F5-411F-AE13-2F817081B4D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39203931-67F5-411F-AE13-2F817081B4D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39203931-67F5-411F-AE13-2F817081B4D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39203931-67F5-411F-AE13-2F817081B4D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBDD30E4-E1FA-49F8-8A38-F8DF3E9E0D1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBDD30E4-E1FA-49F8-8A38-F8DF3E9E0D1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBDD30E4-E1FA-49F8-8A38-F8DF3E9E0D1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBDD30E4-E1FA-49F8-8A38-F8DF3E9E0D1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D08D28FC-28A7-4596-93D1-00D7EB40863E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D08D28FC-28A7-4596-93D1-00D7EB40863E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D08D28FC-28A7-4596-93D1-00D7EB40863E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D08D28FC-28A7-4596-93D1-00D7EB40863E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AA7AFAF5-2C8A-49BC-9978-26ED3F870417} = {273FF589-DE8E-4C86-A39E-FB14A6AF5261}
+		{19AA3F8D-C9D0-468A-B6C7-7AACAC7539A1} = {273FF589-DE8E-4C86-A39E-FB14A6AF5261}
+		{EFB929D0-CE24-4BE1-8CE9-52F14558C8F7} = {21FA1399-420C-41E7-97AB-1303D0CF45E3}
+		{C5CB1D1D-EC9E-4FA1-B72B-703B8A812081} = {21FA1399-420C-41E7-97AB-1303D0CF45E3}
+		{A1AD627E-4821-4185-9AE6-228AD12023A5} = {21FA1399-420C-41E7-97AB-1303D0CF45E3}
+		{30EB3C29-0AD3-4894-A8F5-4E9FB03A25C9} = {B50905E4-7868-40D0-A1FE-9E697318C824}
+		{C6EB34E8-2D2E-4405-BE3A-6F7B822B92EB} = {B50905E4-7868-40D0-A1FE-9E697318C824}
+		{542EFC95-C2E9-4C6D-B35C-E221F01D38AE} = {BED482CD-D7D7-4CC7-B0C6-11A30916F2C1}
+		{552A9A1E-2D11-4D2C-B88A-7D318E0E9BF4} = {E2DF3D1A-BE80-42CD-A533-15442B320C25}
+		{78B9B198-7E2D-480B-8E0D-F195BD1C94F7} = {12D34011-0137-4A9A-B0C1-7DFFB572E35D}
+		{593AD240-EF87-4EA4-8D3E-8463BD8E0CB9} = {12D34011-0137-4A9A-B0C1-7DFFB572E35D}
+		{09C53720-C84B-4462-A2C1-604E9DD0FCBD} = {12D34011-0137-4A9A-B0C1-7DFFB572E35D}
+		{C7668E19-E679-4FE4-8BBF-22C0131432B3} = {12D34011-0137-4A9A-B0C1-7DFFB572E35D}
+		{D3320461-8502-4838-806F-8A8E328F2B5F} = {12D34011-0137-4A9A-B0C1-7DFFB572E35D}
+		{F3587862-5ACE-44A3-B907-82F0051FCAE0} = {12D34011-0137-4A9A-B0C1-7DFFB572E35D}
+		{71BA1D47-EDEA-41F1-9CA7-590EAE540B4F} = {12D34011-0137-4A9A-B0C1-7DFFB572E35D}
+		{F70D100C-9A11-42A4-93A7-47A844694D50} = {EFB929D0-CE24-4BE1-8CE9-52F14558C8F7}
+		{4480950E-7BF7-4845-8E87-0F9F83E1746D} = {C5CB1D1D-EC9E-4FA1-B72B-703B8A812081}
+		{E9A68F77-E061-4535-9F71-E6028F520D3F} = {C5CB1D1D-EC9E-4FA1-B72B-703B8A812081}
+		{F178D8FB-9CC2-401F-995C-F24170A5966D} = {C5CB1D1D-EC9E-4FA1-B72B-703B8A812081}
+		{D08D28FC-28A7-4596-93D1-00D7EB40863E} = {C5CB1D1D-EC9E-4FA1-B72B-703B8A812081}
+		{051BDAAB-6AB7-4D12-A4CC-A723280281CD} = {A1AD627E-4821-4185-9AE6-228AD12023A5}
+		{B8F7CC54-E356-4D11-B2D7-F72DE478F148} = {A1AD627E-4821-4185-9AE6-228AD12023A5}
+		{8DD41B96-C538-4647-868D-CAEE10DE79E7} = {A1AD627E-4821-4185-9AE6-228AD12023A5}
+		{39203931-67F5-411F-AE13-2F817081B4D6} = {0592114A-502C-410E-9887-949B6C7A4D70}
+		{DBDD30E4-E1FA-49F8-8A38-F8DF3E9E0D1D} = {0592114A-502C-410E-9887-949B6C7A4D70}
+	EndGlobalSection
+EndGlobal

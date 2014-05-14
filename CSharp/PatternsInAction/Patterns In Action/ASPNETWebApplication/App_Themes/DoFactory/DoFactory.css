@@ -1,0 +1,468 @@
+﻿/* 
+ * Patterns-in-Action stylesheet.
+ * Copyright (c) Data & Object Factory, LLC. All rights reserved.
+ * www.dofactory.com
+ */
+
+body 
+{
+    margin: 0;
+    padding: 0;
+    font-family: arial, helvetica, sans-serif;
+    font-size: medium;
+    line-height: 1.6em;
+    text-align: left;
+}
+
+.form
+{
+	padding: 0;
+	margin: 0;
+}
+
+/* ---- [ container of all contents ] -----*/
+
+#container 
+{
+/*	float: left; */
+ 	width: 100%;
+	margin: 0 auto;
+	padding: 0;
+	font-size: 95%; 
+	text-align: left;
+ 	background: #fff; 
+	position: relative;
+}
+
+/* -------[ header & logo configuration ]--------- */
+
+#header
+{
+	width: 100%;
+	height: 90px;
+	margin: 0 auto;
+	padding: 0;
+ 	border-bottom: 1px solid #000;
+ 	background-color: #ff6600; 
+}
+
+#logo 
+{
+    float: left;
+    display: block;
+    width: 200px;
+    height: 90px;
+    margin: 0;
+    padding: 0;
+    border-width: 0;
+    text-decoration: none;
+    border-right : 1px solid #000;
+    background-color : #ff9A00;
+}
+
+#logo img
+{
+	border-style: none;
+	display: block;
+	width: 85px;
+	height: 85px;
+	margin-top: 3px;
+	margin-left: 18px;
+}
+
+#header span 
+{
+	position: absolute;
+	font-size: 225%;
+	font-weight: bold;
+	top: 35px;
+	left: 230px;
+}
+
+#header #logo a
+{
+	text-decoration: none;
+	border-bottom: 0px;
+}
+
+/*
+html>body #header span 
+{
+	top: 35px;
+}
+*/
+
+/* -------[ sub header/banner configuration ]------ */
+
+#subheader
+{
+	width: 100%;
+	height: 28px;
+	margin: 0 auto;
+	padding: 0;
+ 	border-bottom: 1px solid #000;
+ 	background-color: #ffcc00; 
+}
+
+#subheader-left
+{
+    float: left;
+    display: block;
+    width: 200px;
+    height: 28px;
+    margin: 0;
+    padding: 0;
+    border-width: 0;
+    text-decoration: none;
+    border-right: 1px solid #000;
+    background-color: #ff6600;
+}
+
+#subheader-right
+{
+    float:left;
+}
+
+#subheader-right img
+{
+    float: left;
+	border-style: none;
+	display: block;
+	width: 21px;
+	height: 17px;
+	margin-top: 5px;
+	margin-left: 3px;
+	margin-right: -13px;
+}
+
+#subheader-right span  /* bread crumbs */
+{
+    float: left;
+    display: block;
+	border-style: none;
+	margin-left: 3px;
+	font-size: 8pt;
+	font-family: Verdana;
+}
+
+/* --- [ menu ] ----- */
+
+#menu
+{
+	float: left;
+	width: 200px;
+	margin: 0;
+	padding: 20px 0 0 0 ;
+	background-color:White;
+	display:block;
+}
+
+#navcontainer 
+{ 
+	width: 160px; 
+
+}
+
+#navcontainer ul
+{
+	margin-left: 0;
+	padding-left: 0;
+	list-style-type:none;
+}
+
+#navcontainer a
+{
+	display: block;
+	width: 160px;
+	height: 20px;
+	padding: 0 0 0 30px;
+	font-size: 10pt;
+	border-bottom: dashed 1px #999999;
+}
+
+#navcontainer a:link, #navcontainer a:visited
+{
+	color:#000;
+	text-decoration: none;
+}
+
+#navcontainer a:hover
+{
+	color: #b00;
+	text-decoration:underline;
+}
+
+#navcontainer .indented
+{
+	text-indent:14px;
+}
+
+.selected
+{
+	color: #b00;
+	text-decoration:underline;
+}
+
+/* --- [ misc ] ----- */
+
+.hidden 
+{
+    display: none;
+    color: white;
+    text-decoration: none;
+    background-color: yellow;
+}
+
+#main-body
+{
+    float:left;
+    width: 100%;
+    margin: 0 auto;
+    height: auto;
+}
+
+#content 
+{
+    float: left;
+    margin-top:15px;
+    margin-left:10px;
+	padding: 5px 0px 0px 10px;
+	width:615px;
+    font-size: 85%;
+    line-height: 18px;
+}
+
+#performance
+{
+	color: #888;
+	padding: 15px;
+	text-indent:15px;
+	font-size:9pt;
+}
+
+/* main page display patterns */
+
+div.patternhead
+{
+	width: 100%; 
+	height: 20px; 
+	margin-top:25px;
+	background-color:  #ff9A00;
+	text-indent:5px;
+	font-weight:bold;
+	border-bottom:solid 1px #999;
+	border-left:solid 1px #999;
+}
+
+p.patterndesc
+{
+	margin-left:15px;
+}
+
+/* --- [ miscellaneous html ] ------ */
+
+td
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 
+{
+	font-weight: bold;
+}
+
+h1 
+{
+	margin:1em 0 1em 0;
+	font-size:14pt;
+	color:#900;
+}
+
+h2 
+{
+	margin:0.3em 0 0.8em 0;
+	border-bottom:1px dotted #999;
+	color:#944;
+	font-size:13pt;
+}
+
+h3 
+{
+	margin:0 0 0.1em 0;
+	font-size:11pt;
+	color:#000;
+}
+
+hr 
+{
+  border:0;
+  border-top: 1px solid #ccc;
+  height: 0;
+  background: #ccc;
+  width: 91%;
+}
+
+/* ---[ links ]------------------------------- */
+
+a:link , a:visited
+{
+	color: #a00;
+	text-decoration: none;
+	border-bottom: 1px solid #a00;
+/*	border-bottom: 1px solid #a00; 
+    text-decoration: underline;*/
+}
+
+a:hover 
+{
+    color: #f00;
+    border-color: #f00;
+}
+
+/* ---[ back link ]---------------------------- */
+
+#back
+{
+	height: 22px;
+	float: right;
+}
+
+/* --- [ shopping cart page ] ------------- */
+
+.cartline
+{
+    text-align: right;
+    height: 30px;
+    width: 560px;
+}
+
+.cartlink
+{
+    font-size: 10pt;
+    text-decoration: underline;
+    border-bottom: none;
+}
+
+/* ---- [customers page] ----- */
+    
+#customers
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    height:30px;
+    width:600px;
+ }
+
+#customerserror
+{
+    float: left;
+    margin: 0;
+    color: #e00;
+    background-color: Yellow;
+    font-weight: normal;
+}
+
+#addnewcustomer
+{
+    float:right;
+    margin:0;
+}
+
+/* --- [customer detail page] ---- */
+
+.customerlabel
+{
+    width:140;
+    height:24;
+    background-color: #900;
+    font-weight:bold;
+    color: #ffc;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.customerfield
+{
+    width: 180;
+    background-color: White;
+    padding-left:10px;
+}
+
+/* --- [position customer and product images] ---  */
+
+.floatright
+{
+  float:right;
+  width:180px;
+  margin:0 0 0 10px; 
+  padding: 0 20px 20px 20px;
+  border:0px solid #bbbbbb;
+  text-align:left;
+}
+
+/* --- [zones are areas both left/right positions] ---- */
+
+.zone
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    height: 80px;
+    width: 600px;
+ }
+
+.zoneleft
+{
+    float: left;
+    margin: 0;
+    /*color: #ee0000;*/
+    font-weight: normal;
+}
+
+.zoneright
+{
+    float: right;
+    margin: 1em 0 1em 0;
+}
+
+
+/* ---- [gridview headers] ------ */
+
+.sortableheader
+{
+    font-weight: bold;
+    font-size: 11pt;
+    color: #FFFFCC; 
+}
+
+.sortableheader a:link
+{
+    color: #FFFFCC; 
+    text-decoration: none;
+    border: none;
+}
+.sortableheader a:visited
+{
+    color: #FFFFCC; 
+    text-decoration: none;
+    border: none;
+}
+
+.sortableheader a:hover
+{
+    color: #FFFFCC; 
+    text-decoration: underline; 
+}
+
+/* update progress control */
+
+.updateprogress
+{
+   position:absolute;
+   top:250px;
+   left:45%; 
+   padding:16px 46px; 
+   border:solid 1px Black; 
+   background-color:#ffffcc;
+}

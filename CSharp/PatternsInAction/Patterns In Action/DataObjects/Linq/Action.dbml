@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database Name="Action" Class="ActionDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=.\SQLEXPRESS;AttachDbFilename=&quot;C:\Projects\Patterns In Action\ASPNETWebApplication\App_Data\Action.mdf&quot;;Integrated Security=True;Connect Timeout=30;User Instance=True" SettingsObjectName="DataObjects.Properties.Settings" SettingsPropertyName="ActionConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Category" Member="CategoryEntities">
+    <Type Name="CategoryEntity">
+      <Column Name="CategoryId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="CategoryName" Type="System.String" DbType="VarChar(15) NOT NULL" CanBeNull="false" />
+      <Column Name="Description" Type="System.String" DbType="VarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="Version" Type="System.Data.Linq.Binary" DbType="rowversion NOT NULL" CanBeNull="false" IsVersion="true" />
+      <Association Name="Category_Product" Member="ProductEntities" OtherKey="CategoryId" Type="ProductEntity" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Customer" Member="CustomerEntities">
+    <Type Name="CustomerEntity">
+      <Column Name="CustomerId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="CompanyName" Type="System.String" DbType="VarChar(40) NOT NULL" CanBeNull="false" />
+      <Column Name="City" Type="System.String" DbType="VarChar(15) NOT NULL" CanBeNull="false" />
+      <Column Name="Country" Type="System.String" DbType="VarChar(15) NOT NULL" CanBeNull="false" />
+      <Column Name="Version" Type="System.Data.Linq.Binary" DbType="rowversion NOT NULL" CanBeNull="false" IsVersion="true" />
+      <Association Name="Customer_Order" Member="OrderEntities" OtherKey="CustomerId" Type="OrderEntity" />
+    </Type>
+  </Table>
+  <Table Name="dbo.[Order]" Member="OrderEntities">
+    <Type Name="OrderEntity">
+      <Column Name="OrderId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="CustomerId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="OrderDate" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="RequiredDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="ShippedDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Freight" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="Version" Type="System.Data.Linq.Binary" DbType="rowversion NOT NULL" CanBeNull="false" IsVersion="true" />
+      <Association Name="Order_OrderDetail" Member="OrderDetailEntities" OtherKey="OrderId" Type="OrderDetailEntity" />
+      <Association Name="Customer_Order" Member="CustomerEntity" ThisKey="CustomerId" Type="CustomerEntity" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Product" Member="ProductEntities">
+    <Type Name="ProductEntity">
+      <Column Name="ProductId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="CategoryId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ProductName" Type="System.String" DbType="VarChar(40) NOT NULL" CanBeNull="false" />
+      <Column Name="Weight" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="UnitPrice" Type="System.Decimal" DbType="Money NOT NULL" CanBeNull="false" />
+      <Column Name="UnitsInStock" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Version" Type="System.Data.Linq.Binary" DbType="rowversion NOT NULL" CanBeNull="false" IsVersion="true" />
+      <Association Name="Product_OrderDetail" Member="OrderDetailEntities" OtherKey="ProductId" Type="OrderDetailEntity" />
+      <Association Name="Category_Product" Member="CategoryEntity" ThisKey="CategoryId" Type="CategoryEntity" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.OrderDetail" Member="OrderDetailEntities">
+    <Type Name="OrderDetailEntity">
+      <Column Name="OrderId" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ProductId" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="UnitPrice" Type="System.Decimal" DbType="Money NOT NULL" CanBeNull="false" />
+      <Column Name="Quantity" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Discount" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="Version" Type="System.Data.Linq.Binary" DbType="rowversion NOT NULL" CanBeNull="false" IsVersion="true" />
+      <Association Name="Order_OrderDetail" Member="OrderEntity" ThisKey="OrderId" Type="OrderEntity" IsForeignKey="true" />
+      <Association Name="Product_OrderDetail" Member="ProductEntity" ThisKey="ProductId" Type="ProductEntity" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>

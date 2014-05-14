@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="BusinessObjects.BusinessRules.BusinessRule" Collapsed="true">
+    <Position X="0.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAABCAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>BusinessRules\BusinessRule.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusinessObjects.BusinessRules.ValidateCompare" Collapsed="true">
+    <Position X="0.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAKACAAAAAAAAAAAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>BusinessRules\ValidateCompare.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusinessObjects.BusinessRules.ValidateCreditcard" Collapsed="true">
+    <Position X="4.25" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BusinessRules\ValidateCreditcard.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusinessObjects.BusinessRules.ValidateEmail" Collapsed="true">
+    <Position X="0.5" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BusinessRules\ValidateEmail.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusinessObjects.BusinessRules.ValidateId" Collapsed="true">
+    <Position X="0.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BusinessRules\ValidateId.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusinessObjects.BusinessRules.ValidateIPAddress" Collapsed="true">
+    <Position X="2.25" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BusinessRules\ValidateIPAddress.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusinessObjects.BusinessRules.ValidateLength" Collapsed="true">
+    <Position X="0.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAEABAAAAAAAA=</HashCode>
+      <FileName>BusinessRules\ValidateLength.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusinessObjects.BusinessRules.ValidateRange" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABKAAAAAEAAAAAAAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>BusinessRules\ValidateRange.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusinessObjects.BusinessRules.ValidateRegex" Collapsed="true">
+    <Position X="0.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BusinessRules\ValidateRegex.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusinessObjects.BusinessRules.ValidateRequired" Collapsed="true">
+    <Position X="0.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BusinessRules\ValidateRequired.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusinessObjects.BusinessObject" Collapsed="true">
+    <Position X="7.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIACAAAAAAAAAAAAAAAAAAAEAAAAAYAAAgAA=</HashCode>
+      <FileName>BusinessObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusinessObjects.Product" Collapsed="true">
+    <Position X="5.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAoCAA=</HashCode>
+      <FileName>Product.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusinessObjects.Category" Collapsed="true">
+    <Position X="9.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAgAgAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Category.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusinessObjects.Customer" Collapsed="true">
+    <Position X="3" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAEAAAAAAAAAgAAIAAAAAAAAAAIAABAAAAAAJAAAAAA=</HashCode>
+      <FileName>Customer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusinessObjects.Order" Collapsed="true">
+    <Position X="7.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>OAEAAABAAAAAAAAAABAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Order.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusinessObjects.OrderDetail" Collapsed="true">
+    <Position X="12" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAgAAIAAA=</HashCode>
+      <FileName>OrderDetail.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="BusinessObjects.BusinessRules.ValidationOperator" Collapsed="true">
+    <Position X="3.25" Y="5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAgAAAAAAAgIAAAAAAAAAAAAAAAAAAAAQAACA=</HashCode>
+      <FileName>BusinessRules\ValidationOperator.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="BusinessObjects.BusinessRules.ValidationDataType" Collapsed="true">
+    <Position X="3.25" Y="5.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAQAAAAAAAAAACAgABAAAAAAAAAAA=</HashCode>
+      <FileName>BusinessRules\ValidationDataType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>
